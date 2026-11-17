@@ -1,0 +1,11 @@
+# Response headers for every page. Wrangler applies this file; it is not served.
+# The pages load nothing but their own images and stylesheet: no scripts (the JSON-LD block is
+# data and never runs), no fonts, no frames, no forms. Inline <style> blocks and style="" stay
+# allowed because the pages use both.
+/*
+  Content-Security-Policy: default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Cross-Origin-Opener-Policy: same-origin

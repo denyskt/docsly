@@ -3,129 +3,170 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Docsly — Your Documents, Encrypted on Your Device</title>
-<meta name="description" content="Docsly keeps passports, contracts, insurance and warranties in one encrypted vault. AES-256 on your device, the key never leaves it, and there is no server to breach. For iPhone and Android.">
-<meta property="og:title" content="Docsly: Encrypted Document Vault">
-<meta property="og:description" content="Every important document in one place, encrypted on your device. No account, no server, no cloud unless you ask for it.">
-<meta property="og:image" content="https://getdocsly.app/assets/icon.png">
+<title>Docsly — Your Documents, Organized and Encrypted on Your Device</title>
+<meta name="description" content="Docsly keeps passports, contracts, insurance and receipts in one app, sorted your way and encrypted on your device with AES-256. No account, no server. For iPhone and Android; on iPhone and iPad, find a document by any word inside it and get a reminder before a passport expires.">
+<link rel="canonical" href="https://getdocsly.app/">
+<link rel="alternate" hreflang="en" href="https://getdocsly.app/">
+<link rel="alternate" hreflang="ru" href="https://getdocsly.app/index.ru.html">
+<link rel="alternate" hreflang="x-default" href="https://getdocsly.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:url" content="https://getdocsly.app/">
+<meta property="og:title" content="Docsly: your documents, organized and encrypted">
+<meta property="og:description" content="Passports, contracts, insurance and receipts in one app, encrypted on your device. No account, no server.">
+<meta property="og:image" content="https://getdocsly.app/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="apple-itunes-app" content="app-id=6762974333">
-<style>
-  :root { color-scheme: light dark; }
-  * { box-sizing: border-box; }
-  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         margin: 0; color: #1c1c1e; background: #fff; }
-  a { color: #0060df; }
-  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
-
-  .hero { background: linear-gradient(180deg, #e4f3ff 0%, #f4faff 70%, #fff 100%); padding: 64px 0 40px; text-align: center; }
-  .hero img.icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(10,80,160,.22); }
-  h1 { font-size: 2.2rem; line-height: 1.2; margin: 20px 0 8px; }
-  h1 .accent { color: #0a84ff; }
-  .tagline { font-size: 1.15rem; color: #4b4b50; max-width: 580px; margin: 0 auto 24px; }
-  .badges { display: flex; justify-content: center; align-items: center; gap: 6px; flex-wrap: wrap; }
-  .badges a { display: inline-block; line-height: 0; }
-  .badges img.apple { height: 54px; width: auto; }
-  .badges img.play { height: 80px; width: auto; }
-
-  section.features { padding: 40px 0 8px; }
-  h2 { font-size: 1.5rem; text-align: center; margin: 24px 0 4px; }
-  .subhead { text-align: center; color: #6b6b70; margin: 0 0 28px; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
-  .card { border: 1px solid rgba(128,128,128,.18); border-radius: 14px; padding: 18px 20px; background: rgba(10,132,255,.04); }
-  .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
-  .card .emoji { font-size: 1.4rem; display: block; margin-bottom: 8px; }
-  .card p { margin: 0; color: #4b4b50; font-size: .95rem; }
-
-  .callout { max-width: 680px; margin: 32px auto 0; border-left: 3px solid #0a84ff; padding: 12px 16px;
-             background: rgba(10,132,255,.07); border-radius: 8px; font-size: .95rem; }
-
-  .cta { text-align: center; padding: 40px 0 56px; }
-
-  footer { border-top: 1px solid rgba(128,128,128,.2); padding: 28px 0 48px; color: #6b6b70; font-size: .9rem; }
-  footer .links { margin-bottom: 8px; }
-  footer .links a { margin-right: 16px; }
-
-  @media (prefers-color-scheme: dark) {
-    body { color: #e6e6ea; background: #14161b; }
-    a { color: #4da6ff; }
-    .hero { background: linear-gradient(180deg, #0e2033 0%, #131a22 70%, #14161b 100%); }
-    .tagline, .card p { color: #a6a6ad; }
-    .card { background: rgba(10,132,255,.07); }
-    h1 .accent { color: #4da6ff; }
-  }
-</style>
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Docsly",
+  "url": "https://getdocsly.app/",
+  "image": "https://getdocsly.app/assets/icon.png",
+  "description": "A document vault for passports, contracts, insurance and receipts. Documents are encrypted on the device with AES-256; there is no account and no server.",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "iOS 16.0 or later, Android 10 or later",
+  "inLanguage": ["en", "ru", "uk", "de", "es", "fr", "it", "pt", "pl", "tr", "ja", "ko", "zh-Hans", "th", "vi", "id", "hi"],
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "installUrl": [
+    "https://apps.apple.com/app/id6762974333",
+    "https://play.google.com/store/apps/details?id=app.docsly.app"
+  ],
+  "screenshot": [
+    "https://getdocsly.app/assets/shots/search.jpg",
+    "https://getdocsly.app/assets/shots/fields.jpg",
+    "https://getdocsly.app/assets/shots/expiry.jpg",
+    "https://getdocsly.app/assets/shots/folders.jpg"
+  ]
+}
+</script>
 </head>
 <body>
 
 <header class="hero">
-  <div class="wrap">
-    <img class="icon" src="assets/icon.png" alt="Docsly app icon" width="96" height="96">
-    <h1>Every document that matters —<br><span class="accent">encrypted on your device</span></h1>
-    <p class="tagline">Passports, contracts, insurance, warranties. Docsly keeps them in one vault, encrypted with AES-256. The key never leaves your phone, and there is no server that could hold your files.</p>
-    <div class="badges">
-      <a href="https://apps.apple.com/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Download Docsly on the App Store" width="162" height="54"></a>
-      <a href="https://play.google.com/store/apps/details?id=app.docsly.app"><img class="play" src="assets/googleplay-badge.png" alt="Get Docsly on Google Play" width="207" height="80"></a>
+  <div class="wrap top">
+    <a class="brand" href="./"><img src="assets/icon.png" alt="" width="32" height="32">Docsly</a>
+    <nav class="lang" aria-label="Language"><span>EN</span><a href="index.ru.html" hreflang="ru" lang="ru">RU</a></nav>
+  </div>
+  <div class="wrap split">
+    <div>
+      <h1>Passports, contracts, insurance — <em>organized and encrypted</em> on your phone</h1>
+      <p class="lead">The documents you actually need, warranties and receipts included — in one app, sorted the way you think about them, and encrypted on your device. Docsly has no account and no server.</p>
+      <div class="badges">
+        <a href="https://apps.apple.com/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Download Docsly on the App Store" width="162" height="54"></a>
+        <a href="https://play.google.com/store/apps/details?id=app.docsly.app"><img class="play" src="assets/googleplay-badge.png" alt="Get Docsly on Google Play" width="207" height="80"></a>
+      </div>
+      <ul class="points">
+        <li>AES-256 on the device</li>
+        <li>Documents work offline</li>
+        <li>No sign-up</li>
+      </ul>
     </div>
+    <div class="phone"><img src="assets/shots/folders.jpg" alt="Docsly: folders for family, finance, identity, medical, rent, travel, vehicle and work" width="1320" height="2868" fetchpriority="high"></div>
   </div>
 </header>
 
-<!-- Store screenshots go here once they exist, as a horizontal strip:
-     <div class="shots"><img src="assets/shot-1.jpg" alt="…"></div> -->
-
-<section class="features">
+<section>
   <div class="wrap">
-    <h2>A vault, not another cloud folder</h2>
-    <p class="subhead">No account. No sign-up. Nothing uploaded unless you ask for it.</p>
-    <div class="grid">
-      <div class="card">
-        <span class="emoji">🗂️</span>
-        <h3>All in one place</h3>
-        <p>Passports, contracts, insurance policies, warranties — stored together instead of scattered across chats, photo albums and drawers.</p>
+    <p class="eyebrow">New in Docsly 1.4</p>
+    <h2>Docsly reads your documents</h2>
+    <p class="section-lead">Text recognition runs on your device, offline. The recognized text never leaves it and is stored encrypted, like the documents themselves.</p>
+
+    <div class="row">
+      <div class="text">
+        <h3>Find a document by any word inside it</h3>
+        <p>A number, a surname, a line from the page — search finds the passport, contract or receipt that contains it, not only the one with that name.</p>
       </div>
-      <div class="card">
-        <span class="emoji">🔍</span>
-        <h3>Everything in its place</h3>
-        <p>Organize by folder, tag documents by family member, and find the one you need in seconds instead of scrolling a camera roll.</p>
-      </div>
-      <div class="card">
-        <span class="emoji">📷</span>
-        <h3>Scan, import, share</h3>
-        <p>Scan a page with the camera, import from Photos or Files, or send a document straight into Docsly from another app — and share it back out in a couple of taps.</p>
-      </div>
-      <div class="card">
-        <span class="emoji">🔒</span>
-        <h3>For your eyes only</h3>
-        <p>A PIN and biometrics guard the vault. A second, decoy PIN opens a separate one — so what you unlock under pressure is not what you actually keep.</p>
-      </div>
-      <div class="card">
-        <span class="emoji">☁️</span>
-        <h3>Backups you control</h3>
-        <p>Encrypted backups go to <em>your</em> iCloud or Google Drive, sealed with your own passphrase before they leave the device. Never automatic, never through us.</p>
-      </div>
-      <div class="card">
-        <span class="emoji">🛡️</span>
-        <h3>Encrypted on the device</h3>
-        <p>AES-256 at rest, with the key held in the iOS Keychain or Android KeyStore and marked device-only. We operate no backend — see the <a href="privacy.html">privacy policy</a>.</p>
-      </div>
+      <div class="phone"><img src="assets/shots/search.jpg" alt="Searching “Alexander” finds boarding passes, a prescription and a driver licence by the text inside them" width="1320" height="2868" loading="lazy"></div>
     </div>
-    <div class="callout">
-      <strong>One thing to know up front:</strong> your backup passphrase cannot be recovered — not by us, not by anyone. That is what makes the backup safe to keep in your own cloud, and it is also why you should write the passphrase down somewhere you trust.
+
+    <div class="row flip">
+      <div class="text">
+        <h3>Copy the number you need in one tap</h3>
+        <p>Docsly picks out the fields of a passport or ID — number, names, dates — so you copy them instead of retyping. A field is marked as checked when the check digits of the machine-readable zone agree.</p>
+        <p>Driving licences from the US, Canada and Europe are read too.</p>
+      </div>
+      <div class="phone"><img src="assets/shots/fields.jpg" alt="Fields read from a passport: document number, names, nationality, date of birth and expiry, each with a copy button" width="1320" height="2868" loading="lazy"></div>
+    </div>
+
+    <div class="row">
+      <div class="text">
+        <h3>Know before a passport expires</h3>
+        <p>In the last month before a passport, ID card or driving licence expires, its card shows the days left. Docsly reminds you 30, 10 and 3 days before, on the day and the day after.</p>
+      </div>
+      <div class="phone"><img src="assets/shots/expiry.jpg" alt="An Identity folder where a driver licence and a residence permit show 5 and 21 days left" width="1320" height="2868" loading="lazy"></div>
+    </div>
+
+    <p class="note">Text recognition, fields and expiry reminders are in Docsly 1.4 for iPhone and iPad. On Android they come with the next update.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Everyday</p>
+    <h2>Sorted the way you think about it</h2>
+    <p class="section-lead">Not another camera roll to scroll through.</p>
+    <div class="grid">
+      <div class="card"><h3>Profiles</h3><p>For yourself, your family and work — each with its own documents, folders and tags.</p></div>
+      <div class="card"><h3>Folders and tags</h3><p>Folders inside folders, as deep as you need. Tag documents by family member; star the ones you reach for.</p></div>
+      <div class="card"><h3>Photos, PDFs, video</h3><p>Side by side in one folder. Several photos become one document — an album, not a mess.</p></div>
+      <div class="card"><h3>Add from anywhere</h3><p>Scan with the camera, import from Photos and Files, or send to Docsly from another app's share menu.</p></div>
+      <div class="card"><h3>Photos to PDF</h3><p>Turn a stack of photos into a single PDF, ready to send.</p></div>
+      <div class="card"><h3>Share a whole folder</h3><p>One document or a folder with its structure, in a couple of taps — or as a .docsly file that another Docsly opens, with a password if you set one.</p></div>
     </div>
   </div>
 </section>
 
-<div class="cta">
-  <div class="badges">
-    <a href="https://apps.apple.com/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Download Docsly on the App Store" width="162" height="54"></a>
-    <a href="https://play.google.com/store/apps/details?id=app.docsly.app"><img class="play" src="assets/googleplay-badge.png" alt="Get Docsly on Google Play" width="207" height="80"></a>
+<section>
+  <div class="wrap">
+    <div class="row">
+      <div class="text">
+        <p class="eyebrow">Privacy</p>
+        <h2>A vault, not another cloud folder</h2>
+        <p>Document contents are encrypted on your device with AES-256. The key is protected by the iOS Keychain or the Android KeyStore and never leaves the device.</p>
+        <ul>
+          <li>PIN, Face ID, Touch ID or fingerprint</li>
+          <li>A second PIN opens a separate, hidden vault</li>
+          <li>Encrypted backups under a passphrase you choose — in your own cloud account or in a file, never through us</li>
+        </ul>
+        <p style="margin-top:16px"><a href="security.html">How the encryption works</a> · <a href="privacy.html">Privacy policy</a></p>
+      </div>
+      <div class="phone"><img src="assets/shots/security.jpg" alt="Security settings: authentication, lock on minimize, biometric unlock, hidden folders and a decoy PIN" width="1320" height="2868" loading="lazy"></div>
+    </div>
+
+    <div class="trust" style="margin-top:56px">
+      <div><strong>No account</strong>Nothing to sign up for, no email to give.</div>
+      <div><strong>No server</strong>Docsly has no backend. Your documents are never uploaded; the app sends only anonymous usage and crash data (<a href="privacy.html">privacy policy</a>).</div>
+      <div><strong>Works offline</strong>Your documents, search and text recognition work with no connection.</div>
+    </div>
+    <div class="callout"><strong>One thing to know up front:</strong> a backup passphrase cannot be recovered — not by us, not by anyone. That is what makes a backup safe to keep in your own cloud, and why you should write the passphrase down somewhere you trust.</div>
+  </div>
+</section>
+
+<div class="cta alt">
+  <div class="wrap">
+    <h2>Keep your documents where you can find them</h2>
+    <div class="badges">
+      <a href="https://apps.apple.com/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Download Docsly on the App Store" width="162" height="54"></a>
+      <a href="https://play.google.com/store/apps/details?id=app.docsly.app"><img class="play" src="assets/googleplay-badge.png" alt="Get Docsly on Google Play" width="207" height="80"></a>
+    </div>
   </div>
 </div>
 
 <footer>
   <div class="wrap">
     <div class="links">
+      <a href="security.html">Security</a>
       <a href="privacy.html">Privacy Policy</a>
       <a href="mailto:denyskt.hub@icloud.com">Support</a>
+      <a href="index.ru.html" hreflang="ru" lang="ru">Русский</a>
     </div>
     © 2026 Igor Gasenko &amp; Denys Kotenko · Docsly
   </div>

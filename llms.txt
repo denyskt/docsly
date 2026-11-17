@@ -1,0 +1,25 @@
+# Docsly
+
+> Docsly is a document vault app for iPhone, iPad and Android. It keeps passports, ID cards, driving licences, contracts, insurance, warranties and receipts in one place on the phone, organized in profiles, folders and tags. Document contents are encrypted on the device with AES-256; the key is protected by the iOS Keychain or Android KeyStore and stays on the device. There is no account and no server: documents are never uploaded (the app sends only anonymous usage and crash data, see the privacy policy), and documents and search work offline.
+
+Key facts:
+
+- Text recognition (Docsly 1.4, iPhone and iPad; Android in its next update): search documents by any word inside them; copy passport and ID fields (number, names, dates) in one tap, checked against the machine-readable zone; driving licences from the US, Canada and Europe are read too. Recognition runs on the device, offline, and the recognized text is stored encrypted.
+- Expiry reminders (Docsly 1.4, iPhone and iPad; Android in its next update): in the last month before a passport, ID card or driving licence expires, its card shows the days left, and Docsly reminds 30, 10 and 3 days before, on the day and the day after.
+- Organization: profiles for self, family and work; nested folders; tags by family member; favorites; photos, PDFs and video in the same folder; several photos as one document; photos to PDF.
+- Adding documents: camera scan, import from Photos and Files, "Save to Docsly" from another app's share menu.
+- Sharing: one document or a whole folder with its structure; a .docsly file another Docsly opens, optionally with a password.
+- Protection: PIN, Face ID, Touch ID or fingerprint; a second PIN opens a separate hidden vault; backups encrypted under a user passphrase, stored in the user's own cloud account or in a file. The passphrase cannot be recovered by anyone.
+- Docsly is not open source.
+
+## Pages
+
+- [Home](https://getdocsly.app/): what Docsly does, with screenshots
+- [Home, Russian](https://getdocsly.app/index.ru.html)
+- [How the encryption works](https://getdocsly.app/security.html): cipher, key storage and backup format
+- [Privacy policy](https://getdocsly.app/privacy.html)
+
+## Download
+
+- [App Store](https://apps.apple.com/app/id6762974333)
+- [Google Play](https://play.google.com/store/apps/details?id=app.docsly.app)

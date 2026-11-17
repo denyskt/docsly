@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://getdocsly.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/index.ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/"/>
+  </url>
+  <url><loc>https://getdocsly.app/index.ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/index.ru.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/"/>
+  </url>
+  <url><loc>https://getdocsly.app/privacy.html</loc></url>
+  <url><loc>https://getdocsly.app/security.de-DE.html</loc></url>
+  <url><loc>https://getdocsly.app/security.es-ES.html</loc></url>
+  <url><loc>https://getdocsly.app/security.fr-FR.html</loc></url>
+  <url><loc>https://getdocsly.app/security.hi.html</loc></url>
+  <url><loc>https://getdocsly.app/security.html</loc></url>
+  <url><loc>https://getdocsly.app/security.id.html</loc></url>
+  <url><loc>https://getdocsly.app/security.it.html</loc></url>
+  <url><loc>https://getdocsly.app/security.ja.html</loc></url>
+  <url><loc>https://getdocsly.app/security.ko.html</loc></url>
+  <url><loc>https://getdocsly.app/security.pl.html</loc></url>
+  <url><loc>https://getdocsly.app/security.pt-BR.html</loc></url>
+  <url><loc>https://getdocsly.app/security.pt-PT.html</loc></url>
+  <url><loc>https://getdocsly.app/security.ru.html</loc></url>
+  <url><loc>https://getdocsly.app/security.th.html</loc></url>
+  <url><loc>https://getdocsly.app/security.tr.html</loc></url>
+  <url><loc>https://getdocsly.app/security.uk.html</loc></url>
+  <url><loc>https://getdocsly.app/security.vi.html</loc></url>
+  <url><loc>https://getdocsly.app/security.zh-Hans.html</loc></url>
+</urlset>

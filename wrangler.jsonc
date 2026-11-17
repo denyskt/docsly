@@ -1,0 +1,14 @@
+// Cloudflare Workers Builds deploys this repository as a static site: every push to main goes live,
+// every other branch gets a preview URL. There is no worker code; the repository root is the site.
+{
+  "name": "docsly",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    // Serve page.html at exactly /page.html. The default ("auto-trailing-slash") answers it with a 307
+    // to /page, while the app, both store listings, canonical, hreflang and sitemap.xml all use .html.
+    "html_handling": "none"
+  },
+  "workers_dev": true,
+  "preview_urls": true
+}

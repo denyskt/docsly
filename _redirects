@@ -1,0 +1,2 @@
+# Serve the home page at / (html_handling "none" in wrangler.jsonc does not map / to index.html).
+/ /index.html 200

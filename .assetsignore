@@ -1,0 +1,9 @@
+# Everything in the repository root is uploaded as the site unless listed here.
+.git
+.wrangler
+.gitignore
+.assetsignore
+wrangler.jsonc
+CNAME
+*.md
+.DS_Store

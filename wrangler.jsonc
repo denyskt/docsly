@@ -9,6 +9,8 @@
     // to /page, while the app, both store listings, canonical, hreflang and sitemap.xml all use .html.
     "html_handling": "none"
   },
-  "workers_dev": true,
+  // The site lives at getdocsly.app; a second copy at docsly.<account>.workers.dev is only a duplicate
+  // for search engines. Branch previews keep their own URLs (preview_urls).
+  "workers_dev": false,
   "preview_urls": true
 }

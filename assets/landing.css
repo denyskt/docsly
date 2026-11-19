@@ -1455,3 +1455,7 @@ h1, h2, h3 { hyphens: manual; -webkit-hyphens: manual; }
 .free-badge { padding: 5px 10px; border-radius: 8px; font-size: 13px; font-weight: 700; white-space: nowrap;
   color: #1f9d48; background: color-mix(in srgb, #34c759 14%, transparent); }
 @media (prefers-color-scheme: dark) { .free-badge { color: #4cd964; background: color-mix(in srgb, #34c759 18%, transparent); } }
+
+/* Menu items whose page does not exist yet: laid out like a link, greyed like an unreleased language. */
+.main-nav .lang-off { padding: 8px 12px; font-weight: 500; font-size: 15px; cursor: default; }
+.burger nav .lang-off { display: flex; align-items: center; min-height: 44px; padding: 0 12px; font-weight: 500; cursor: default; }

@@ -18,6 +18,15 @@
   code { background: #f1f1f1; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
   table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
   td, th { border: 1px solid #ddd; padding: .5rem .65rem; text-align: left; vertical-align: top; }
+  /* On a phone the three-column table pushed past a 320px screen; each row becomes a card instead. */
+  @media (max-width: 480px) {
+    table, tbody, tr, td { display: block; }
+    tr:first-child { display: none; }
+    tr { border: 1px solid #ddd; border-radius: 8px; margin: .75rem 0; }
+    td { border: 0; padding: .35rem .75rem; }
+    td:first-child { font-weight: 600; padding-top: .6rem; }
+    td:last-child { padding-bottom: .6rem; }
+  }
   th { background: #f7f7f7; }
   footer { margin-top: 3rem; color: #6b6b70; font-size: .85rem; }
   @media (prefers-color-scheme: dark) {
@@ -25,7 +34,7 @@
     a { color: #4da6ff; }
     code { background: #262626; }
     th { background: #1f1f1f; }
-    td, th { border-color: #333; }
+    td, th, tr { border-color: #333; }
   }
 </style>
 </head>

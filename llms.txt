@@ -4,8 +4,8 @@
 
 Key facts:
 
-- Text recognition (Docsly 1.4, iPhone and iPad; Android in its next update): search documents by any word inside them; copy passport and ID fields (number, names, dates) in one tap, checked against the machine-readable zone; driving licences from the US, Canada and Europe are read too. Recognition runs on the device, offline, and the recognized text is stored encrypted.
-- Expiry reminders (Docsly 1.4, iPhone and iPad; Android in its next update): in the last month before a passport, ID card or driving licence expires, its card shows the days left, and Docsly reminds 30, 10 and 3 days before, on the day and the day after.
+- Text recognition (Docsly 1.4): search documents by any word inside them; copy passport and ID fields (number, names, dates) in one tap, checked against the machine-readable zone; driving licences from the US, Canada and Europe are read too. Recognition runs on the device, offline, and the recognized text is stored encrypted.
+- Expiry reminders (Docsly 1.4): in the last month before a passport, ID card or driving licence expires, its card shows the days left, and Docsly reminds 30, 10 and 3 days before, on the day and the day after.
 - Organization: profiles for self, family and work; nested folders; tags by family member; favorites; photos, PDFs and video in the same folder; several photos as one document; photos to PDF.
 - Adding documents: camera scan, import from Photos and Files, "Save to Docsly" from another app's share menu.
 - Sharing: one document or a whole folder with its structure; a .docsly file another Docsly opens, optionally with a password.

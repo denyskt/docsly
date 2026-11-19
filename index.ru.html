@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Docsly — документы под рукой и под защитой, с шифрованием на устройстве</title>
-<meta name="description" content="Docsly хранит паспорта, договоры, страховки и чеки в одном приложении — в вашем порядке и зашифрованными на устройстве по AES-256. Без аккаунта и без сервера. Для iPhone и Android; на iPhone и iPad — поиск по любому слову в документе и напоминание до окончания срока паспорта.">
+<meta name="description" content="Docsly хранит паспорта, договоры, страховки и чеки в одном приложении — в вашем порядке и зашифрованными на устройстве по AES-256. Без аккаунта и без сервера. Для iPhone, iPad и Android: поиск по любому слову в документе и напоминание до окончания срока паспорта.">
 <link rel="canonical" href="https://getdocsly.app/index.ru.html">
 <link rel="alternate" hreflang="en" href="https://getdocsly.app/">
 <link rel="alternate" hreflang="ru" href="https://getdocsly.app/index.ru.html">
@@ -22,7 +22,10 @@
 <meta name="apple-itunes-app" content="app-id=6762974333">
 <link rel="icon" href="assets/icon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
-<link rel="stylesheet" href="assets/site.css">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1c1e" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="assets/landing.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -49,128 +52,229 @@
 </script>
 </head>
 <body>
+<a class="skip" href="#main">К&nbsp;содержимому</a>
 
-<header class="hero">
-  <div class="wrap top">
-    <a class="brand" href="index.ru.html"><img src="assets/icon.png" alt="" width="32" height="32">Docsly</a>
-    <nav class="lang" aria-label="Язык"><a href="./" hreflang="en" lang="en">EN</a><span>RU</span></nav>
-  </div>
-  <div class="wrap split">
-    <div>
-      <h1>Паспорта, договоры, страховки — <em>упорядочены и зашифрованы</em> на телефоне</h1>
-      <p class="lead">Документы, которые действительно нужны, включая гарантии и чеки, — в одном приложении, в том порядке, в каком вы о них думаете, и зашифрованы на вашем устройстве. У Docsly нет ни аккаунта, ни сервера.</p>
-      <div class="badges">
-        <a href="https://apps.apple.com/ru/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Загрузите Docsly в App Store" width="162" height="54"></a>
-        <a href="https://play.google.com/store/apps/details?id=app.docsly.app&amp;hl=ru"><img class="play" src="assets/googleplay-badge.png" alt="Docsly в Google Play" width="207" height="80"></a>
-      </div>
-      <ul class="points">
-        <li>AES-256 на устройстве</li>
-        <li>Документы — без интернета</li>
-        <li>Без регистрации</li>
-      </ul>
-    </div>
-    <div class="phone"><img src="assets/shots/folders.jpg" alt="Docsly: папки по категориям — семья, финансы, удостоверения, медицина, аренда, путешествия, транспорт, работа" width="1320" height="2868" fetchpriority="high"></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.ru.html"><img src="assets/icon.png" alt="" width="32" height="32"><span>Docsly</span></a>
+    <nav class="main-nav" aria-label="Меню"><a href="#features">Возможности</a><a href="#faq">Справка</a></nav>
+    <a class="lang-switch" href="index.html" hreflang="en" lang="en" aria-label="Язык: English"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>Русский</span></a>
+    <a class="btn" href="#download">Скачать</a>
+    <details class="burger">
+      <summary aria-label="Меню"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+      <nav aria-label="Меню"><a href="#features">Возможности</a><a href="#faq">Справка</a><a href="index.html" lang="en"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg> English</a><a class="btn" href="#download">Скачать</a></nav>
+    </details>
   </div>
 </header>
 
-<section>
-  <div class="wrap">
-    <p class="eyebrow">Новое в Docsly 1.4</p>
-    <h2>Docsly читает ваши документы</h2>
-    <p class="section-lead">Распознавание текста работает на устройстве, без интернета. Распознанный текст не покидает его и хранится зашифрованным, как и сами документы.</p>
+<main id="main">
 
-    <div class="row">
-      <div class="text">
-        <h3>Найдите документ по любому слову в нём</h3>
-        <p>Номер, фамилия, строка со страницы — поиск находит паспорт, договор или чек, в котором это написано, а не только тот, что так назван.</p>
+  <!-- Первый экран -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-card">
+        <div class="hero-copy">
+          <h1>Все важные документы в&nbsp;одном надежном месте</h1>
+          <p class="lead">Паспорта, удостоверения, права, договоры, страховки, чеки&nbsp;— отсканированы, разложены по папкам и&nbsp;находятся за секунды. Даже без интернета. Без аккаунта и&nbsp;рекламы.</p>
+          <div class="stores">
+            <a class="sbtn" href="https://apps.apple.com/ru/app/id6762974333" aria-label="Загрузите в&nbsp;App Store"><img class="sb-icon" src="assets/apple-logo.png" alt="" width="20" height="24"><b class="sb-name">App Store</b></a>
+            <a class="sbtn" href="https://play.google.com/store/apps/details?id=app.docsly.app&amp;hl=ru" aria-label="Доступно в&nbsp;Google Play"><img class="sb-icon" src="assets/googleplay-logo.png" alt="" width="22" height="24"><b class="sb-name">Google Play</b></a>
+          </div>
+        </div>
+        <div class="hero-shot">
+          <picture>
+            <source srcset="assets/hero-phone-dark.webp" media="(prefers-color-scheme: dark)">
+            <img class="hero-phone" src="assets/hero-phone-light.webp" width="760" height="1330" alt="Главный экран Docsly: профиль, входящие и&nbsp;папки с&nbsp;документами" fetchpriority="high">
+          </picture>
+        </div>
       </div>
-      <div class="phone"><img src="assets/shots/search.jpg" alt="Поиск «Alexander» находит посадочные талоны, рецепт и водительские права по тексту внутри" width="1320" height="2868" loading="lazy"></div>
     </div>
+  </section>
 
-    <div class="row flip">
-      <div class="text">
-        <h3>Нужный номер — одним касанием</h3>
-        <p>Docsly находит поля паспорта или ID-карты — номер, имена, даты, — и вы копируете их, а не перепечатываете. Поле отмечается как проверенное, когда сходятся контрольные цифры машиночитаемой зоны.</p>
-        <p>Читаются и водительские права США, Канады и Европы.</p>
+  <!-- Момент, когда нужен документ -->
+  <section class="section moment" aria-labelledby="moment-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="moment-title">Находится за секунды&nbsp;— именно когда нужно</h2>
+        <p>На границе, в&nbsp;банке, у&nbsp;врача нужный документ всегда не тот, что в&nbsp;кармане. С&nbsp;Docsly все документы собраны в&nbsp;одном месте и&nbsp;разложены по папкам&nbsp;— нужный находится за секунды, даже без связи.</p>
       </div>
-      <div class="phone"><img src="assets/shots/fields.jpg" alt="Поля, прочитанные с паспорта: номер, имена, гражданство, даты рождения и окончания срока, у каждого кнопка «Копировать»" width="1320" height="2868" loading="lazy"></div>
-    </div>
-
-    <div class="row">
-      <div class="text">
-        <h3>Узнайте заранее, что срок паспорта истекает</h3>
-        <p>За месяц до окончания срока паспорта, ID-карты или прав на их карточке видно, сколько дней осталось. Docsly напомнит за 30, 10 и 3 дня, в день окончания и на следующий день.</p>
+      <div class="co-stage">
+        <div class="co-chaos">
+          <span class="co-label">Без Docsly</span>
+          <ul class="chips" aria-label="Без Docsly"><li class="chip c1 "><span>Где фото паспорта?</span></li><li class="chip c2 "><span>4 312 фото в&nbsp;галерее</span></li><li class="chip c3 "><span>Справка&nbsp;— в&nbsp;бумажной папке</span></li><li class="chip c4 warn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20zM12 10v4M12 17h.01"/></svg><span>Чек выцвел</span></li><li class="chip c5 "><span>Договор где-то в&nbsp;почте</span></li><li class="chip c6 "><span>Скан из чата</span></li><li class="chip c7 file"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5L5 20"/></svg><span>IMG_2047.jpg</span></li><li class="chip c8 "><span>Полис&nbsp;— в&nbsp;другом телефоне</span></li><li class="chip c9 "><span>Гарантия потерялась</span></li><li class="chip c10 "><span>Скан в&nbsp;«Загрузках»</span></li><li class="chip c11 file"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5L5 20"/></svg><span>scan_0003.pdf</span></li><li class="chip c12 "><span>Права&nbsp;— в&nbsp;бардачке</span></li></ul>
+        </div>
+        <div class="co-order">
+          <span class="co-label accent">С&nbsp;Docsly</span>
+          <div class="stack">
+            <div class="stack-head"><img src="assets/icon.png" alt="" width="22" height="22"><b>Docsly</b><span class="stack-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Всё собрано</span></div>
+            <ul aria-label="С Docsly"><li class="doc d1"><span class="doc-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16c.6-1.5 1.7-2.2 3-2.2s2.4.7 3 2.2M14 10h4.5M14 13h4.5"/></svg></span><span class="doc-t"><b>Паспорта и&nbsp;ID</b><span class="doc-s ">3 документа</span></span></li><li class="doc d2"><span class="doc-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.5 13 11 9.5 4H8l1.8 7.3L5 11.5 3.5 9H2.5l1 3.5-1 3.5h1L5 13.5l4.8.2L8 21h1.5L13 14l8-1.5z"/></svg></span><span class="doc-t"><b>Поездки</b><span class="doc-s ">6 документов</span></span></li><li class="doc d3"><span class="doc-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-6h4v6"/></svg></span><span class="doc-t"><b>Дом</b><span class="doc-s ">5 документов</span></span></li><li class="doc d4"><span class="doc-tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 11l1.8-4.2A2 2 0 0 1 8.6 5.5h6.8a2 2 0 0 1 1.8 1.3L19 11"/><rect x="3" y="11" width="18" height="6" rx="2"/><path d="M5 17v2M19 17v2"/></svg></span><span class="doc-t"><b>Авто</b><span class="doc-s ">3 документа</span></span></li></ul>
+            <p class="stack-foot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Всё на одном телефоне, под защитой</p>
+          </div>
+        </div>
       </div>
-      <div class="phone"><img src="assets/shots/expiry.jpg" alt="Папка с удостоверениями: у водительских прав и вида на жительство осталось 5 и 21 день" width="1320" height="2868" loading="lazy"></div>
     </div>
+  </section>
 
-    <p class="note">Распознавание текста, поля и напоминания о сроке — в Docsly 1.4 для iPhone и iPad. На Android они появятся со следующим обновлением.</p>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="wrap">
-    <p class="eyebrow">Каждый день</p>
-    <h2>В том порядке, в каком вы о них думаете</h2>
-    <p class="section-lead">А не ещё одна лента фотографий, которую надо пролистывать.</p>
-    <div class="grid">
-      <div class="card"><h3>Профили</h3><p>Для себя, семьи и работы — у каждого свои документы, папки и теги.</p></div>
-      <div class="card"><h3>Папки и теги</h3><p>Папки внутри папок любой глубины. Теги по членам семьи, избранное для самых нужных.</p></div>
-      <div class="card"><h3>Фото, PDF, видео</h3><p>Рядом в одной папке. Несколько фото становятся одним документом — альбомом, а не россыпью.</p></div>
-      <div class="card"><h3>Откуда угодно</h3><p>Снимайте камерой, импортируйте из «Фото» и «Файлов» или отправляйте в Docsly из меню «Поделиться» другого приложения.</p></div>
-      <div class="card"><h3>Фото в PDF</h3><p>Соберите несколько фотографий в один PDF, готовый к отправке.</p></div>
-      <div class="card"><h3>Папка целиком</h3><p>Документ или папка со всей структурой в пару касаний — или файлом .docsly, который откроет другой Docsly, с паролем, если вы его задали.</p></div>
+  <!-- Возможности: 2 крупные новинки 1.4 + 4 стандартные; новые&nbsp;— рядами по 4 -->
+  <section class="section tight" id="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="features-title">Что умеет Docsly</h2>
+        <p>Распознавание работает на устройстве, без интернета. Распознанный текст хранится зашифрованным&nbsp;— как и&nbsp;сами документы.</p>
+      </div>
+      <div class="bento">
+          <article class="fcard f-ocr">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span><span class="new-badge">Новое в&nbsp;1.4.0</span></span></div>
+            <h3>Ищите по тексту внутри</h3>
+            <p>Docsly читает документы на устройстве и&nbsp;находит их по любому слову, номеру или имени. Номер паспорта, даты и&nbsp;имена копируются одним касанием.</p>
+            <div class="rpanels">
+            <div class="rpanel"><span class="rlabel">Найдено внутри PDF · стр. 2</span><span class="rvalue">«Договор № <mark>482-К</mark> от 14.09…»</span></div>
+            <div class="rpanel rpanel-row">
+              <span><span class="rlabel">Номер паспорта</span><span class="rvalue">76 4829104</span></span>
+              <span class="chip-ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>проверено</span>
+            </div>
+          </div>
+          </article>
+          <article class="fcard f-exp">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span><span class="new-badge">Новое в&nbsp;1.4.0</span></span></div>
+            <h3>Напоминания о&nbsp;сроке действия</h3>
+            <p>Узнайте за месяц, что истекает паспорт, ID-карта или права.</p>
+            <div class="rpanels"><div class="rpanel rpanel-row">
+              <span><span class="rlabel">Водительское удостоверение</span><span class="rvalue">Осталось 30 дней</span></span>
+              <span class="chip-remind"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Напомнит</span>
+            </div><div class="rpanel"><span class="rlabel">Когда придут напоминания</span><ul class="sched"><li>за 30 дней</li><li>за 10 дней</li><li>за 3 дня</li><li>в&nbsp;день окончания</li><li>на следующий день</li></ul></div></div>
+          </article>
+          <article class="fcard f-scan">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2M7 12h10"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span></span></div>
+            <h3>Сканируйте бумажные документы</h3>
+            <p>Края находятся и&nbsp;выравниваются автоматически, а&nbsp;страницы потом можно объединить в&nbsp;один PDF.</p>
+            
+          </article>
+          <article class="fcard f-priv">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.5 3 7.8 7 9 4-1.2 7-4.5 7-9V6z"/><rect x="9.5" y="11" width="5" height="4" rx="1"/><path d="M10.5 11V9.8a1.5 1.5 0 0 1 3 0V11"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span></span></div>
+            <h3>Защита от посторонних глаз</h3>
+            <p>ПИН-код, Face ID, Touch ID или отпечаток пальца, скрытые папки и&nbsp;второе хранилище под отдельным PIN.</p>
+            
+            <a class="fmore" href="security.ru.html">Подробнее <span aria-hidden="true">→</span></a>
+          </article>
+          <article class="fcard f-org">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M7 12h6"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span></span></div>
+            <h3>Папки, теги, профили</h3>
+            <p>Папки в&nbsp;папках, теги для людей и&nbsp;поездок, отдельный профиль для семьи или работы.</p>
+            
+          </article>
+          <article class="fcard f-wifi">
+            <div class="fcard-top"><div class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r="1" fill="currentColor"/></svg></div><span class="badges"><span class="free-badge">Бесплатно</span><span class="new-badge">Новое в&nbsp;1.5.0</span></span></div>
+            <h3>Передача по Wi-Fi</h3>
+            <p>С&nbsp;телефона на телефон, между iPhone и&nbsp;Android, без сервера посередине.</p>
+            
+          </article>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section>
+  <!-- Приватность (выбран вариант 1) -->
+  <section class="section tight pvv" aria-labelledby="pv1-title">
+    <div class="wrap">
+      <div class="privacy-band v1">
+        <div class="pb-copy">
+          <h2 id="pv1-title">Ваши документы остаются на вашем устройстве</h2>
+          <p class="pb-lead">У&nbsp;Docsly нет сервера для ваших документов. Содержимое документов зашифровано <span class="nw">AES-256</span>, а&nbsp;ключ шифрования никогда не покидает ваш телефон.</p>
+          <a class="more-link" href="security.ru.html">Как устроено шифрование <span aria-hidden="true">→</span></a>
+          <p class="v1-note">Приложение отправляет только анонимную аналитику и&nbsp;отчёты о&nbsp;сбоях. Названия и&nbsp;миниатюры документов тоже шифруются на устройстве.</p>
+        </div>
+        <div class="v1-stage"><span class="v1-glow" aria-hidden="true"></span><ul class="gstack"><li class="gcard g1"><span class="g-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="8" r="4"/><path d="M3 20a7 7 0 0 1 11.5-5.4M16 16l5 5M21 16l-5 5"/></svg></span><span class="g-t"><small>Аккаунт</small><b>не нужен</b></span><span class="g-ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span></li><li class="gcard g2"><span class="g-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="7" rx="2"/><path d="M3 15h9M7 7.5h.01"/><path d="M16 15l5 5M21 15l-5 5"/></svg></span><span class="g-t"><small>Сервер для документов</small><b>отсутствует</b></span><span class="g-ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span></li><li class="gcard g3"><span class="g-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/></svg></span><span class="g-t"><small>Ключ шифрования</small><b>только в&nbsp;Keychain / KeyStore</b></span><span class="g-ok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span></li></ul></div>
+      </div>
+    </div>
+  </section>
+
+    <!-- 3 шага -->
+  <section class="section tight" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="how-title">Как это работает</h2><p>Три шага&nbsp;— и&nbsp;все документы под рукой, даже без интернета.</p></div>
+      <ol class="steps"><li class="card">
+            <span class="step-n" aria-hidden="true">1</span>
+            <span class="step-num">Шаг 1</span>
+            <h3>Добавьте</h3>
+            <p>Отсканируйте бумагу, импортируйте фото и&nbsp;PDF или поделитесь из любого приложения.</p>
+          </li><li class="card">
+            <span class="step-n" aria-hidden="true">2</span>
+            <span class="step-num">Шаг 2</span>
+            <h3>Разложите</h3>
+            <p>Папки, теги и&nbsp;профили разделяют семью, работу и&nbsp;поездки.</p>
+          </li><li class="card">
+            <span class="step-n" aria-hidden="true">3</span>
+            <span class="step-num">Шаг 3</span>
+            <h3>Найдите</h3>
+            <p>Ищите по названию или любому слову внутри и&nbsp;открывайте даже без интернета.</p>
+          </li></ol>
+    </div>
+  </section>
+
+  <!-- FAQ (FAQPage) -->
+  <section class="section tight" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="faq-split faq-v2">
+        <div class="faq-aside">
+          <h2 id="faq-title">Частые вопросы</h2>
+          <p class="faq-sub">Не нашли ответ? Напишите нам&nbsp;— поможем разобраться.</p>
+          <a class="btn-outline" href="mailto:info@getdocsly.app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Написать нам</a>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Docsly бесплатный?</summary>
+            <div><p>Docsly можно бесплатно скачать в&nbsp;Google Play и&nbsp;App Store.</p></div>
+          </details>
+          <details>
+            <summary>Нужен ли Docsly интернет?</summary>
+            <div><p>Нет. Всё, включая распознавание текста, работает офлайн. Интернет нужен только для резервных копий, которые вы запускаете сами, и&nbsp;для анонимной аналитики и&nbsp;отчётов о&nbsp;сбоях.</p></div>
+          </details>
+          <details>
+            <summary>Документы куда-нибудь загружаются?</summary>
+            <div><p>Нет. Сервера Docsly нет. Документы покидают телефон, только когда вы делитесь ими или создаёте зашифрованную копию в&nbsp;своём облаке.</p></div>
+          </details>
+          <details>
+            <summary>Что будет, если я&nbsp;потеряю телефон?</summary>
+            <div><p>Если вы сделали зашифрованную копию, восстановите её на новом телефоне с&nbsp;вашей парольной фразой. Без парольной фразы копию не откроет никто&nbsp;— даже мы.</p></div>
+          </details>
+          <details>
+            <summary>На каких языках работает Docsly?</summary>
+            <div><p>На 18 языках, и&nbsp;язык приложения может отличаться от языка телефона.</p></div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Финальный призыв -->
+  <section class="section tight" id="download" aria-labelledby="cta-title">
+    <div class="wrap">
+      <div class="cta-card">
+        <h2 id="cta-title">Ваши документы в&nbsp;порядке</h2>
+        <p>Установите Docsly на iPhone, iPad или Android, чтобы паспорта, права и&nbsp;важные договоры всегда были под рукой и&nbsp;под защитой.</p>
+        <div class="stores">
+            <a class="sbtn" href="https://apps.apple.com/ru/app/id6762974333" aria-label="Загрузите в&nbsp;App Store"><img class="sb-icon" src="assets/apple-logo.png" alt="" width="20" height="24"><b class="sb-name">App Store</b></a>
+            <a class="sbtn" href="https://play.google.com/store/apps/details?id=app.docsly.app&amp;hl=ru" aria-label="Доступно в&nbsp;Google Play"><img class="sb-icon" src="assets/googleplay-logo.png" alt="" width="22" height="24"><b class="sb-name">Google Play</b></a>
+          </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
   <div class="wrap">
-    <div class="row">
-      <div class="text">
-        <p class="eyebrow">Приватность</p>
-        <h2>Сейф, а не ещё одна папка в облаке</h2>
-        <p>Содержимое документов шифруется на устройстве по AES-256. Ключ защищён связкой ключей iOS (Keychain) или Android KeyStore и не покидает устройство.</p>
-        <ul>
-          <li>PIN-код, Face ID, Touch ID или отпечаток пальца</li>
-          <li>Второй PIN-код открывает отдельное скрытое хранилище</li>
-          <li>Резервные копии зашифрованы вашей парольной фразой и лежат в вашем облаке или в файле — и никогда не проходят через нас</li>
+    <div class="fgrid">
+      <div class="fabout">
+        <p class="definition">Docsly&nbsp;— приложение-хранилище документов для Android и&nbsp;iPhone: сканируйте, храните и&nbsp;ищите паспорта, удостоверения и&nbsp;договоры, зашифрованные на вашем устройстве.</p>
+        <ul class="fstores">
+          <li><a href="https://play.google.com/store/apps/details?id=app.docsly.app&amp;hl=ru">Скачать в&nbsp;Google Play</a></li>
+          <li><a href="https://apps.apple.com/ru/app/id6762974333">Скачать в&nbsp;App Store</a></li>
         </ul>
-        <p style="margin-top:16px"><a href="security.ru.html">Как устроено шифрование</a> · <a href="privacy.html">Политика конфиденциальности</a></p>
+        <p class="fcopy">© 2026 Igor Gasenko &amp; Denys Kotenko · Docsly</p>
       </div>
-      <div class="phone"><img src="assets/shots/security.jpg" alt="Настройки безопасности: вход по PIN, блокировка при сворачивании, биометрия, скрытые папки и фейковый PIN" width="1320" height="2868" loading="lazy"></div>
+      <div class="fcol"><h2>Docsly</h2><ul><li><a href="#features">Возможности</a></li><li><a href="#faq">Частые вопросы</a></li></ul></div><div class="fcol"><h2>Помощь</h2><ul><li><a href="mailto:info@getdocsly.app">Написать нам</a></li><li><a href="security.ru.html">Безопасность</a></li><li><a href="privacy.html">Конфиденциальность</a></li></ul></div><div class="fcol fcol-langs"><h2>Языки</h2><ul class="langs"><li><a href="index.html" hreflang="en" lang="en">English</a></li><li><span aria-current="page">Русский</span></li></ul></div>
     </div>
-
-    <div class="trust" style="margin-top:56px">
-      <div><strong>Без аккаунта</strong>Регистрироваться негде, почту оставлять не нужно.</div>
-      <div><strong>Без сервера</strong>У Docsly нет бэкенда. Ваши документы никуда не загружаются; приложение отправляет только анонимную статистику использования и отчёты о сбоях (<a href="privacy.html">политика конфиденциальности</a>).</div>
-      <div><strong>Без интернета</strong>Документы, поиск и распознавание текста работают без подключения.</div>
-    </div>
-    <div class="callout"><strong>Важно знать заранее:</strong> парольную фразу резервной копии нельзя восстановить — ни нам, ни кому-либо ещё. Именно поэтому копию безопасно хранить в своём облаке — и поэтому фразу стоит записать и хранить в надёжном месте.</div>
-  </div>
-</section>
-
-<div class="cta alt">
-  <div class="wrap">
-    <h2>Документы там, где их легко найти</h2>
-    <div class="badges">
-      <a href="https://apps.apple.com/ru/app/id6762974333"><img class="apple" src="assets/appstore-badge.svg" alt="Загрузите Docsly в App Store" width="162" height="54"></a>
-      <a href="https://play.google.com/store/apps/details?id=app.docsly.app&amp;hl=ru"><img class="play" src="assets/googleplay-badge.png" alt="Docsly в Google Play" width="207" height="80"></a>
-    </div>
-  </div>
-</div>
-
-<footer>
-  <div class="wrap">
-    <div class="links">
-      <a href="security.ru.html">Безопасность</a>
-      <a href="privacy.html">Политика конфиденциальности</a>
-      <a href="mailto:denyskt.hub@icloud.com">Поддержка</a>
-      <a href="./" hreflang="en" lang="en">English</a>
-    </div>
-    © 2026 Igor Gasenko &amp; Denys Kotenko · Docsly
   </div>
 </footer>
-
 </body>
 </html>

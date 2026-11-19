@@ -1459,3 +1459,6 @@ h1, h2, h3 { hyphens: manual; -webkit-hyphens: manual; }
 /* Menu items whose page does not exist yet: laid out like a link, greyed like an unreleased language. */
 .main-nav .lang-off { padding: 8px 12px; font-weight: 500; font-size: 15px; cursor: default; }
 .burger nav .lang-off { display: flex; align-items: center; min-height: 44px; padding: 0 12px; font-weight: 500; cursor: default; }
+
+/* Japanese has no spaces, so a headline may break inside a word (「ひ／とつ」); break at phrase boundaries where supported. */
+:lang(ja) h1, :lang(ja) h2, :lang(ja) h3 { word-break: auto-phrase; }

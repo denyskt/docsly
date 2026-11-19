@@ -1,2 +1,5 @@
 # Serve the home page at / (html_handling "none" in wrangler.jsonc does not map / to index.html).
 / /index.html 200
+# Short store links printed in the footer: getdocsly.app/android and getdocsly.app/ios.
+/android https://play.google.com/store/apps/details?id=app.docsly.app 302
+/ios https://apps.apple.com/app/id6762974333 302

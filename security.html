@@ -24,15 +24,15 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <main>
   <h1>Security</h1>
   <p class="sub">How Docsly protects your documents</p>
-  <p class="upd">Last updated: 2 August 2026</p>
+  <p class="upd">Last updated: 19 November 2026</p>
   <h2>What is encrypted</h2>
-  <p>Document <em>contents</em> are encrypted on your device with AES-256-GCM. Document names, folder names and other metadata are not — they are stored in the app's local database in the clear. We say this plainly because a vault that claims to encrypt everything, and does not, is worse than one that tells you where the line is.</p>
+  <p>Document <em>contents</em> are encrypted on your device with AES-256-GCM — and so are the names of documents, folders, tags and profiles, the text recognised in your documents, and their thumbnails. What stays in the clear on the device is the structure around them: a folder's type, icon and purpose, dates, file sizes and types, the order of items, colours, whether something is a favourite, hidden or locked, and the schedule of expiry reminders (which document, which day). We say this plainly because a vault that claims to encrypt everything, and does not, is worse than one that tells you where the line is.</p>
   <h2>Where the keys live</h2>
   <p>The encryption key is generated on your device and kept in the iOS Keychain or the Android KeyStore. It never leaves the device, is never placed in a backup archive, and is never sent to us — there is nowhere for it to be sent.</p>
   <h2>Backups</h2>
   <p>A backup is encrypted with a passphrase you choose, on your device, before anything is uploaded. The key is derived with PBKDF2 at 600,000 iterations; the archive format is <code>DOCSP2</code>. Without that passphrase the archive cannot be opened by anyone, including us. If you lose it, the backup is unrecoverable — that is the intended property, not an oversight.</p>
   <h2>No server, no account</h2>
-  <p>Docsly has no accounts and no backend. Your documents never reach us. When you back up to Google Drive or iCloud you are writing to your own storage with your own account; we only see the parts of it you point the app at.</p>
+  <p>Docsly has no accounts and no backend. Your documents never reach us. When you back up to Google Drive or iCloud you are writing to your own storage with your own account, not to us. What the app does send is anonymous usage analytics and crash reports (Firebase) — never your documents, their names or their text.</p>
   <h2>Source code</h2>
   <p>Docsly is not open source. We publish this page instead, so the parts that matter — the cipher, the key derivation, where keys are stored, what leaves the device — can be read and judged without taking our word for it.</p>
 </main>

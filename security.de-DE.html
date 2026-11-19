@@ -23,16 +23,16 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <body>
 <main>
   <h1>Sicherheit</h1>
-  <p class="sub">Wie Docsly Ihre Dokumente schützt</p>
-  <p class="upd">Aktualisiert: 2. August 2026</p>
+  <p class="sub">Wie Docsly deine Dokumente schützt</p>
+  <p class="upd">Aktualisiert: 19. November 2026</p>
   <h2>Was verschlüsselt wird</h2>
-  <p>Der <em>Inhalt</em> von Dokumenten wird auf Ihrem Gerät mit AES-256-GCM verschlüsselt. Dokumentnamen, Ordnernamen und andere Metadaten nicht — sie liegen unverschlüsselt in der lokalen Datenbank der App. Wir sagen das deutlich, denn ein Tresor, der vorgibt, sämtliche Daten zu verschlüsseln, und es nicht tut, ist schlechter als einer, der Ihnen zeigt, wo die Grenze verläuft.</p>
+  <p>Der <em>Inhalt</em> von Dokumenten wird auf deinem Gerät mit AES-256-GCM verschlüsselt — ebenso die Namen von Dokumenten, Ordnern, Tags und Profilen, der in deinen Dokumenten erkannte Text und ihre Vorschaubilder. Unverschlüsselt auf dem Gerät bleibt die Struktur um sie herum: Typ, Symbol und Zweck eines Ordners, Datumsangaben, Dateigrößen und -typen, die Reihenfolge der Einträge, Farben, ob etwas ein Favorit, ausgeblendet oder gesperrt ist, und der Zeitplan der Ablauf-Erinnerungen (welches Dokument, an welchem Tag). Wir sagen das deutlich, denn ein Tresor, der vorgibt, sämtliche Daten zu verschlüsseln, und es nicht tut, ist schlechter als einer, der dir zeigt, wo die Grenze verläuft.</p>
   <h2>Wo die Schlüssel liegen</h2>
-  <p>Der Schlüssel wird auf Ihrem Gerät erzeugt und im iOS Keychain bzw. im Android KeyStore aufbewahrt. Er verlässt das Gerät nicht, landet nie in einem Sicherungsarchiv und wird nie an uns gesendet — es gibt keine Stelle, an die er gesendet werden könnte.</p>
+  <p>Der Schlüssel wird auf deinem Gerät erzeugt und im iOS Keychain bzw. im Android KeyStore aufbewahrt. Er verlässt das Gerät nicht, landet nie in einem Sicherungsarchiv und wird nie an uns gesendet — es gibt keine Stelle, an die er gesendet werden könnte.</p>
   <h2>Sicherungen</h2>
-  <p>Eine Sicherung wird auf Ihrem Gerät mit einer von Ihnen gewählten Passphrase verschlüsselt, bevor irgendetwas hochgeladen wird. Der Schlüssel wird mit PBKDF2 in 600.000 Iterationen abgeleitet; das Archivformat ist <code>DOCSP2</code>. Ohne diese Passphrase kann das Archiv von niemandem geöffnet werden, auch nicht von uns. Wenn Sie sie verlieren, ist die Sicherung nicht wiederherstellbar — das ist die beabsichtigte Eigenschaft, kein Versehen.</p>
+  <p>Eine Sicherung wird auf deinem Gerät mit einer von dir gewählten Passphrase verschlüsselt, bevor irgendetwas hochgeladen wird. Der Schlüssel wird mit PBKDF2 in 600.000 Iterationen abgeleitet; das Archivformat ist <code>DOCSP2</code>. Ohne diese Passphrase kann das Archiv von niemandem geöffnet werden, auch nicht von uns. Wenn du sie verlierst, ist die Sicherung nicht wiederherstellbar — das ist die beabsichtigte Eigenschaft, kein Versehen.</p>
   <h2>Kein Server, kein Konto</h2>
-  <p>Docsly hat keine Konten und kein Backend. Ihre Dokumente erreichen uns nie. Wenn Sie in Google Drive oder iCloud sichern, schreiben Sie in Ihren eigenen Speicher mit Ihrem eigenen Konto; wir sehen davon nur die Teile, auf die Sie die App richten.</p>
+  <p>Docsly hat keine Konten und kein Backend. Deine Dokumente erreichen uns nie. Wenn du in Google Drive oder iCloud sicherst, schreibst du mit deinem eigenen Konto in deinen eigenen Speicher, nicht zu uns. Was die App sendet, sind anonyme Nutzungsstatistiken und Absturzberichte (Firebase) — niemals deine Dokumente, ihre Namen oder ihren Text.</p>
   <h2>Quellcode</h2>
   <p>Docsly ist nicht quelloffen. Stattdessen veröffentlichen wir diese Seite, damit das Wesentliche — das Verschlüsselungsverfahren, die Schlüsselableitung, der Speicherort der Schlüssel, was das Gerät verlässt — nachgelesen und beurteilt werden kann, ohne uns beim Wort nehmen zu müssen.</p>
 </main>

@@ -24,15 +24,15 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <main>
   <h1>Güvenlik</h1>
   <p class="sub">Docsly belgelerinizi nasıl korur</p>
-  <p class="upd">Güncelleme: 2 Ağustos 2026</p>
+  <p class="upd">Güncelleme: 19 Kasım 2026</p>
   <h2>Ne şifrelenir</h2>
-  <p>Belgelerin <em>içeriği</em> cihazınızda AES-256-GCM ile şifrelenir. Belge adları, klasör adları ve diğer üst veriler şifrelenmez; uygulamanın yerel veritabanında açık biçimde durur. Bunu açıkça söylüyoruz: her şeyi şifrelediğini ileri sürüp şifrelemeyen bir kasa, sınırın nerede olduğunu gösteren bir kasadan daha kötüdür.</p>
+  <p>Belgelerin <em>içeriği</em> cihazınızda AES-256-GCM ile şifrelenir; belgelerin, klasörlerin, etiketlerin ve profillerin adları, belgelerinizde tanınan metin ve belgelerin küçük resimleri de öyle. Cihazda açık biçimde kalan, bunları çevreleyen yapıdır: bir klasörün türü, simgesi ve amacı, tarihler, dosya boyutları ve türleri, öğelerin sırası, renkler, bir şeyin favori, gizli ya da kilitli olup olmadığı ve süre bitimi hatırlatmalarının takvimi (hangi belge, hangi gün). Bunu açıkça söylüyoruz: her şeyi şifrelediğini ileri sürüp şifrelemeyen bir kasa, sınırın nerede olduğunu gösteren bir kasadan daha kötüdür.</p>
   <h2>Anahtarlar nerede durur</h2>
   <p>Şifreleme anahtarı cihazınızda üretilir ve iOS Keychain ya da Android KeyStore içinde saklanır. Cihazdan hiç çıkmaz, hiçbir yedek arşivine konmaz ve bize hiç gönderilmez — gönderilecek bir yer yok.</p>
   <h2>Yedekler</h2>
   <p>Yedek, sizin seçtiğiniz bir parolayla, herhangi bir yükleme yapılmadan önce cihazınızda şifrelenir. Anahtar PBKDF2 ile 600.000 yinelemede türetilir; arşiv biçimi <code>DOCSP2</code>. Bu parola olmadan arşivi kimse açamaz, biz de açamayız. Parolayı kaybederseniz yedek geri getirilemez — bu, gözden kaçmış bir durum değil, amaçlanan özelliktir.</p>
   <h2>Sunucu yok, hesap yok</h2>
-  <p>Docsly'de hesap da yok, sunucu tarafı da. Belgeleriniz bize hiç ulaşmaz. Google Drive veya iCloud'a yedeklediğinizde kendi hesabınızla kendi depolama alanınıza yazarsınız; biz yalnızca uygulamayı yönlendirdiğiniz kısımları görürüz.</p>
+  <p>Docsly'de hesap da yok, sunucu tarafı da. Belgeleriniz bize hiç ulaşmaz. Google Drive veya iCloud'a yedeklediğinizde bize değil, kendi hesabınızla kendi depolama alanınıza yazarsınız. Uygulamanın gönderdiği şey anonim kullanım analizleri ve çökme raporlarıdır (Firebase) — asla belgeleriniz, adları ya da metinleri değil.</p>
   <h2>Kaynak kodu</h2>
   <p>Docsly açık kaynak değildir. Bunun yerine bu sayfayı yayımlıyoruz; böylece önemli olan kısımlar — şifreleme algoritması, anahtar türetme, anahtarların nerede durduğu, cihazdan ne çıktığı — bizim sözümüze güvenmek zorunda kalmadan okunup değerlendirilebilir.</p>
 </main>

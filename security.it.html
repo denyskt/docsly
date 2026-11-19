@@ -24,15 +24,15 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <main>
   <h1>Sicurezza</h1>
   <p class="sub">Come Docsly protegge i tuoi documenti</p>
-  <p class="upd">Aggiornato: 2 agosto 2026</p>
+  <p class="upd">Aggiornato: 19 novembre 2026</p>
   <h2>Che cosa è cifrato</h2>
-  <p>Il <em>contenuto</em> dei documenti è cifrato sul dispositivo con AES-256-GCM. I nomi dei documenti, i nomi delle cartelle e gli altri metadati no: restano in chiaro nel database locale dell'app. Lo diciamo con chiarezza perché una cassaforte che dichiara di cifrare qualsiasi dato, e non lo fa, è peggio di una che mostra dov'è il confine.</p>
+  <p>Il <em>contenuto</em> dei documenti è cifrato sul dispositivo con AES-256-GCM — e lo sono anche i nomi di documenti, cartelle, tag e profili, il testo riconosciuto nei tuoi documenti e le loro miniature. Ciò che resta in chiaro sul dispositivo è la struttura che li circonda: tipo, icona e scopo di una cartella, date, dimensioni e tipi dei file, ordine degli elementi, colori, se qualcosa è tra i preferiti, nascosto o bloccato, e il calendario dei promemoria di scadenza (quale documento, quale giorno). Lo diciamo con chiarezza perché una cassaforte che dichiara di cifrare qualsiasi dato, e non lo fa, è peggio di una che mostra dov'è il confine.</p>
   <h2>Dove stanno le chiavi</h2>
   <p>La chiave di cifratura viene generata sul dispositivo e conservata nel Keychain di iOS o nel KeyStore di Android. Non lascia mai il dispositivo, non finisce mai in un archivio di backup e non viene mai inviata a noi: non c'è alcun posto dove inviarla.</p>
   <h2>Backup</h2>
   <p>Un backup viene cifrato con una passphrase scelta da te, sul dispositivo, prima che qualcosa venga caricato. La chiave è derivata con PBKDF2 a 600.000 iterazioni; il formato dell'archivio è <code>DOCSP2</code>. Senza quella passphrase l'archivio non può essere aperto da nessuno, noi compresi. Se la perdi, il backup è irrecuperabile: è la proprietà voluta, non una svista.</p>
   <h2>Nessun server, nessun account</h2>
-  <p>Docsly non ha account né backend. I tuoi documenti non arrivano mai a noi. Quando fai un backup su Google Drive o iCloud scrivi nel tuo spazio di archiviazione con il tuo account; noi ne vediamo solo le parti a cui indirizzi l'app.</p>
+  <p>Docsly non ha account né backend. I tuoi documenti non arrivano mai a noi. Quando fai un backup su Google Drive o iCloud scrivi nel tuo spazio di archiviazione con il tuo account, non da noi. Ciò che l'app invia sono statistiche d'uso anonime e report sugli arresti anomali (Firebase): mai i tuoi documenti, i loro nomi o il loro testo.</p>
   <h2>Codice sorgente</h2>
   <p>Docsly non è open source. Pubblichiamo questa pagina al suo posto, così che ciò che conta — l'algoritmo, la derivazione della chiave, dove sono conservate le chiavi, che cosa lascia il dispositivo — si possa leggere e valutare senza doverci credere sulla parola.</p>
 </main>

@@ -24,15 +24,15 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <main>
   <h1>Seguridad</h1>
   <p class="sub">Cómo Docsly protege tus documentos</p>
-  <p class="upd">Actualizado: 2 de agosto de 2026</p>
+  <p class="upd">Actualizado: 19 de noviembre de 2026</p>
   <h2>Qué se cifra</h2>
-  <p>El <em>contenido</em> de los documentos se cifra en tu dispositivo con AES-256-GCM. Los nombres de documentos, los nombres de carpetas y el resto de metadatos no: se guardan sin cifrar en la base de datos local de la app. Lo decimos con claridad porque una caja fuerte que afirma cifrarlo todo, y no lo hace, es peor que una que te enseña dónde está el límite.</p>
+  <p>El <em>contenido</em> de los documentos se cifra en tu dispositivo con AES-256-GCM, y también los nombres de documentos, carpetas, etiquetas y perfiles, el texto reconocido en tus documentos y sus miniaturas. Lo que queda sin cifrar en el dispositivo es la estructura que los rodea: el tipo, el icono y la finalidad de una carpeta, las fechas, los tamaños y tipos de archivo, el orden de los elementos, los colores, si algo es favorito, está oculto o está bloqueado, y el calendario de avisos de vencimiento (qué documento, qué día). Lo decimos con claridad porque una caja fuerte que afirma cifrarlo todo, y no lo hace, es peor que una que te enseña dónde está el límite.</p>
   <h2>Dónde están las claves</h2>
   <p>La clave de cifrado se genera en tu dispositivo y se guarda en el Keychain de iOS o en el KeyStore de Android. Nunca sale del dispositivo, nunca se incluye en un archivo de copia de seguridad y nunca se nos envía: no hay ningún sitio al que enviarla.</p>
   <h2>Copias de seguridad</h2>
   <p>Una copia de seguridad se cifra con una contraseña que eliges tú, en tu dispositivo, antes de subir nada. La clave se deriva con PBKDF2 con 600.000 iteraciones; el formato de archivo es <code>DOCSP2</code>. Sin esa contraseña, nadie puede abrir el archivo, tampoco nosotros. Si la pierdes, la copia es irrecuperable: es la propiedad buscada, no un descuido.</p>
   <h2>Sin servidor, sin cuenta</h2>
-  <p>Docsly no tiene cuentas ni servidor. Tus documentos nunca llegan hasta nosotros. Cuando haces una copia en Google Drive o iCloud, escribes en tu propio almacenamiento con tu propia cuenta; nosotros solo vemos las partes a las que apuntas la app.</p>
+  <p>Docsly no tiene cuentas ni servidor. Tus documentos nunca llegan hasta nosotros. Cuando haces una copia en Google Drive o iCloud, escribes en tu propio almacenamiento con tu propia cuenta; a nosotros no nos llega. Lo que sí envía la app son estadísticas de uso anónimas e informes de fallos (Firebase): nunca tus documentos, sus nombres ni su texto.</p>
   <h2>Código fuente</h2>
   <p>Docsly no es de código abierto. Publicamos esta página en su lugar, para que lo que importa —el cifrado, la derivación de claves, dónde se guardan, qué sale del dispositivo— pueda leerse y juzgarse sin tener que creernos.</p>
 </main>

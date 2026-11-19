@@ -24,15 +24,15 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 <main>
   <h1>Bezpieczeństwo</h1>
   <p class="sub">Jak Docsly chroni Twoje dokumenty</p>
-  <p class="upd">Aktualizacja: 2 sierpnia 2026</p>
+  <p class="upd">Aktualizacja: 19 listopada 2026</p>
   <h2>Co jest szyfrowane</h2>
-  <p><em>Zawartość</em> dokumentów jest szyfrowana na Twoim urządzeniu algorytmem AES-256-GCM. Nazwy dokumentów, nazwy folderów i pozostałe metadane — nie: leżą jawnie w lokalnej bazie danych aplikacji. Mówimy to wprost, bo sejf, który deklaruje szyfrowanie dowolnych danych, a tego nie robi, jest gorszy od takiego, który pokazuje, gdzie przebiega granica.</p>
+  <p><em>Zawartość</em> dokumentów jest szyfrowana na Twoim urządzeniu algorytmem AES-256-GCM — podobnie jak nazwy dokumentów, folderów, tagów i profili, tekst rozpoznany w Twoich dokumentach oraz ich miniatury. Jawnie na urządzeniu pozostaje to, co je otacza: typ, ikona i przeznaczenie folderu, daty, rozmiary i typy plików, kolejność elementów, kolory, informacja o tym, czy coś jest w ulubionych, ukryte lub zablokowane, oraz harmonogram przypomnień o ważności (który dokument, którego dnia). Mówimy to wprost, bo sejf, który deklaruje szyfrowanie dowolnych danych, a tego nie robi, jest gorszy od takiego, który pokazuje, gdzie przebiega granica.</p>
   <h2>Gdzie są klucze</h2>
   <p>Klucz szyfrujący powstaje na Twoim urządzeniu i jest przechowywany w iOS Keychain lub w Android KeyStore. Nigdy nie opuszcza urządzenia, nigdy nie trafia do archiwum kopii zapasowej i nigdy nie jest wysyłany do nas — nie ma dokąd go wysyłać.</p>
   <h2>Kopie zapasowe</h2>
   <p>Kopia zapasowa jest szyfrowana hasłem, które wybierasz, na Twoim urządzeniu, zanim cokolwiek zostanie wysłane. Klucz wyprowadzamy funkcją PBKDF2 z 600 000 iteracji; format archiwum to <code>DOCSP2</code>. Bez tego hasła archiwum nie otworzy nikt, my również. Jeśli je zgubisz, kopii nie da się odzyskać — taka jest zamierzona własność, nie przeoczenie.</p>
   <h2>Bez serwera, bez konta</h2>
-  <p>Docsly nie ma kont ani zaplecza serwerowego. Twoje dokumenty nigdy do nas nie trafiają. Kopia w Google Drive lub iCloud zapisywana jest w Twoim własnym magazynie, na Twoim koncie; widzimy z niego tylko to, na co wskażesz aplikacji.</p>
+  <p>Docsly nie ma kont ani zaplecza serwerowego. Twoje dokumenty nigdy do nas nie trafiają. Kopia w Google Drive lub iCloud zapisywana jest w Twoim własnym magazynie, na Twoim koncie, a nie u nas. Aplikacja wysyła jedynie anonimowe statystyki użytkowania i raporty o awariach (Firebase) — nigdy Twoich dokumentów, ich nazw ani tekstu.</p>
   <h2>Kod źródłowy</h2>
   <p>Docsly nie jest oprogramowaniem o otwartym kodzie. Zamiast tego publikujemy tę stronę, żeby to, co istotne — szyfr, wyprowadzanie klucza, miejsce przechowywania kluczy, to, co opuszcza urządzenie — dało się przeczytać i ocenić, nie wierząc nam na słowo.</p>
 </main>

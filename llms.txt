@@ -15,7 +15,7 @@ Key facts:
 ## Pages
 
 - [Home](https://getdocsly.app/): what Docsly does, with screenshots
-- [Home, Russian](https://getdocsly.app/index.ru.html)
+- [Home, Russian](https://getdocsly.app/ru/)
 - [How the encryption works](https://getdocsly.app/security.html): cipher, key storage and backup format
 - [Privacy policy](https://getdocsly.app/privacy.html)
 

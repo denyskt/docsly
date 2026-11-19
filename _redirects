@@ -3,3 +3,39 @@
 # Short store links printed in the footer: getdocsly.app/android and getdocsly.app/ios.
 /android https://play.google.com/store/apps/details?id=app.docsly.app 302
 /ios https://apps.apple.com/app/id6762974333 302
+# Home pages in other languages: written by docs/site-i18n/gen.py.
+/ru/ /ru/index.html 200
+/ru /ru/ 301
+/uk/ /uk/index.html 200
+/uk /uk/ 301
+/de/ /de/index.html 200
+/de /de/ 301
+/es/ /es/index.html 200
+/es /es/ 301
+/fr/ /fr/index.html 200
+/fr /fr/ 301
+/it/ /it/index.html 200
+/it /it/ 301
+/pt-pt/ /pt-pt/index.html 200
+/pt-pt /pt-pt/ 301
+/pt-br/ /pt-br/index.html 200
+/pt-br /pt-br/ 301
+/pl/ /pl/index.html 200
+/pl /pl/ 301
+/tr/ /tr/index.html 200
+/tr /tr/ 301
+/ja/ /ja/index.html 200
+/ja /ja/ 301
+/ko/ /ko/index.html 200
+/ko /ko/ 301
+/zh/ /zh/index.html 200
+/zh /zh/ 301
+/th/ /th/index.html 200
+/th /th/ 301
+/vi/ /vi/index.html 200
+/vi /vi/ 301
+/id/ /id/index.html 200
+/id /id/ 301
+/hi/ /hi/index.html 200
+/hi /hi/ 301
+# End of home pages.

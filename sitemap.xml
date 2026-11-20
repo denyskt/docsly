@@ -380,6 +380,108 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/"/>
   </url>
   <!-- end of home pages -->
+  <!-- content pages: written by docs/site-pages/gen.py -->
+  <url><loc>https://getdocsly.app/features/wifi-transfer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/wifi-transfer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/wifi-transfer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/wifi-transfer.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/features/wifi-transfer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/wifi-transfer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/wifi-transfer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/wifi-transfer.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/features/expiry-reminders.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/expiry-reminders.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/expiry-reminders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/expiry-reminders.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/features/expiry-reminders.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/expiry-reminders.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/expiry-reminders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/expiry-reminders.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/features/text-recognition.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/text-recognition.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/text-recognition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/text-recognition.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/features/text-recognition.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/text-recognition.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/text-recognition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/text-recognition.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/features/pdf-scanner.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/pdf-scanner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/pdf-scanner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/pdf-scanner.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/features/pdf-scanner.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/pdf-scanner.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/pdf-scanner.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/pdf-scanner.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/features/encrypted-backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/encrypted-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/encrypted-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/encrypted-backup.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/features/encrypted-backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/features/encrypted-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/features/encrypted-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/features/encrypted-backup.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/help/new-phone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/new-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/new-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/new-phone.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/help/new-phone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/new-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/new-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/new-phone.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/help/restore-backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/restore-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/restore-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/restore-backup.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/help/restore-backup.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/restore-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/restore-backup.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/restore-backup.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/help/open-docsly-file.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/open-docsly-file.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/open-docsly-file.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/open-docsly-file.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/help/open-docsly-file.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/open-docsly-file.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/open-docsly-file.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/open-docsly-file.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/help/forgot-pin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/forgot-pin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/forgot-pin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/forgot-pin.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/help/forgot-pin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/forgot-pin.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/forgot-pin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/forgot-pin.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/help/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/help/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/"/>
+  </url>
+  <!-- end of content pages -->
   <url><loc>https://getdocsly.app/privacy.html</loc></url>
   <url><loc>https://getdocsly.app/security.de-DE.html</loc></url>
   <url><loc>https://getdocsly.app/security.es-ES.html</loc></url>

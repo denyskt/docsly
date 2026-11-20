@@ -18,6 +18,17 @@ Key facts:
 - [Home, Russian](https://getdocsly.app/ru/)
 - [How the encryption works](https://getdocsly.app/security.html): cipher, key storage and backup format
 - [Privacy policy](https://getdocsly.app/privacy.html)
+<!-- content pages: written by docs/site-pages/gen.py -->
+- [Send documents between Android and iPhone over Wi-Fi](https://getdocsly.app/features/wifi-transfer.html): From Android to iPhone and back, over your own Wi-Fi, with no server in between.
+- [Expiry reminders for passports and driving licences](https://getdocsly.app/features/expiry-reminders.html): A reminder before a passport, ID card or driving licence runs out.
+- [Text recognition and search inside documents](https://getdocsly.app/features/text-recognition.html): Find a document by any word inside it; recognition runs on the phone, offline.
+- [Scan paper documents and turn them into a PDF](https://getdocsly.app/features/pdf-scanner.html): Scan paper with the camera and combine the pages into one PDF.
+- [Encrypted backups to your own Google Drive or iCloud](https://getdocsly.app/features/encrypted-backup.html): An encrypted copy of your vault in your own Google Drive, iCloud or a file.
+- [Move your documents to a new phone](https://getdocsly.app/help/new-phone.html): Three ways to take your documents to a new phone, including Android ↔ iPhone.
+- [Restore a backup](https://getdocsly.app/help/restore-backup.html): Bring documents back from Google Drive, iCloud or a backup file.
+- [Open a .docsly file](https://getdocsly.app/help/open-docsly-file.html): What a .docsly file is and how to open one someone sent you.
+- [Forgot your PIN](https://getdocsly.app/help/forgot-pin.html): What still works if you forget the PIN, and what cannot be undone.
+<!-- end of content pages -->
 
 ## Download
 

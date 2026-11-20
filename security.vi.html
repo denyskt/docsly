@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/vi/">← Docsly</a>
   <h1>Bảo mật</h1>
   <p class="sub">Docsly bảo vệ tài liệu của bạn như thế nào</p>
   <p class="upd">Cập nhật: 19 tháng 11, 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Khoá được lưu ở đâu</h2>
   <p>Khoá mã hoá được tạo trên thiết bị của bạn và giữ trong iOS Keychain hoặc Android KeyStore. Khoá không rời khỏi thiết bị, không bao giờ nằm trong tệp sao lưu và không bao giờ được gửi cho chúng tôi — không có nơi nào để gửi cả.</p>
   <h2>Sao lưu</h2>
-  <p>Bản sao lưu được mã hoá bằng mật khẩu do bạn chọn, ngay trên thiết bị, trước khi bất cứ thứ gì được tải lên. Khoá được dẫn xuất bằng PBKDF2 với 600.000 vòng lặp; định dạng tệp là <code>DOCSP2</code>. Không có mật khẩu đó thì không ai mở được tệp, kể cả chúng tôi. Nếu bạn làm mất, bản sao lưu không thể khôi phục — đó là tính chất có chủ đích, không phải sơ suất.</p>
+  <p>Bản sao lưu được mã hoá bằng mật khẩu do bạn chọn, ngay trên thiết bị, trước khi bất cứ thứ gì được tải lên. Khoá được dẫn xuất bằng PBKDF2 với 600.000 vòng lặp; định dạng tệp là <code>DOCSP3</code>. Không có mật khẩu đó thì không ai mở được tệp, kể cả chúng tôi. Nếu bạn làm mất, bản sao lưu không thể khôi phục — đó là tính chất có chủ đích, không phải sơ suất.</p>
   <h2>Không máy chủ, không tài khoản</h2>
   <p>Docsly không có tài khoản và không có máy chủ. Tài liệu của bạn không bao giờ đến chỗ chúng tôi. Khi bạn sao lưu lên Google Drive hoặc iCloud, bạn đang ghi vào kho lưu trữ của chính bạn bằng tài khoản của chính bạn, chứ không phải gửi cho chúng tôi. Thứ ứng dụng có gửi đi là dữ liệu phân tích sử dụng ẩn danh và báo cáo sự cố (Firebase) — không bao giờ là tài liệu của bạn, tên hay văn bản của chúng.</p>
   <h2>Mã nguồn</h2>
   <p>Docsly không phải mã nguồn mở. Thay vào đó, chúng tôi công bố trang này để những điều quan trọng — thuật toán mã hoá, cách dẫn xuất khoá, nơi lưu khoá, dữ liệu nào rời khỏi thiết bị — có thể được đọc và đánh giá mà không cần tin lời chúng tôi.</p>
+  <nav class="langs" aria-label="Ngôn ngữ"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><span aria-current="page">Tiếng Việt</span></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/uk/">← Docsly</a>
   <h1>Безпека</h1>
   <p class="sub">Як Docsly захищає ваші документи</p>
   <p class="upd">Оновлено: 19 листопада 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Де зберігаються ключі</h2>
   <p>Ключ шифрування створюється на вашому пристрої та зберігається в iOS Keychain або Android KeyStore. Він не залишає пристрій, ніколи не потрапляє до архіву резервної копії й ніколи не надсилається нам — надсилати його просто нікуди.</p>
   <h2>Резервні копії</h2>
-  <p>Резервна копія шифрується обраним вами паролем на пристрої, перед будь-яким вивантаженням. Ключ виводиться через PBKDF2 з 600 000 ітерацій; формат архіву — <code>DOCSP2</code>. Без цього пароля архів не відкриє ніхто, зокрема й ми. Якщо ви його втратите, копію не відновити — це задумана властивість, а не недогляд.</p>
+  <p>Резервна копія шифрується обраним вами паролем на пристрої, перед будь-яким вивантаженням. Ключ виводиться через PBKDF2 з 600 000 ітерацій; формат архіву — <code>DOCSP3</code>. Без цього пароля архів не відкриє ніхто, зокрема й ми. Якщо ви його втратите, копію не відновити — це задумана властивість, а не недогляд.</p>
   <h2>Ні сервера, ні облікового запису</h2>
   <p>У Docsly немає облікових записів і немає серверної частини. Ваші документи до нас не потрапляють. Копія в Google Drive чи iCloud записується у ваше власне сховище під вашим обліковим записом, а не до нас. Застосунок надсилає лише анонімну статистику використання та звіти про збої (Firebase) — ніколи не документи, їхні назви чи текст.</p>
   <h2>Вихідний код</h2>
   <p>Docsly не має відкритого вихідного коду. Натомість ми публікуємо цю сторінку, щоб те, що важливо — шифр, виведення ключа, місце зберігання ключів, що залишає пристрій — можна було прочитати й оцінити, не вірячи нам на слово.</p>
+  <nav class="langs" aria-label="Мова"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><span aria-current="page">Українська</span></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

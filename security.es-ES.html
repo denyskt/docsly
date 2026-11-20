@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/es/">← Docsly</a>
   <h1>Seguridad</h1>
   <p class="sub">Cómo Docsly protege tus documentos</p>
   <p class="upd">Actualizado: 19 de noviembre de 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Dónde están las claves</h2>
   <p>La clave de cifrado se genera en tu dispositivo y se guarda en el Keychain de iOS o en el KeyStore de Android. Nunca sale del dispositivo, nunca se incluye en un archivo de copia de seguridad y nunca se nos envía: no hay ningún sitio al que enviarla.</p>
   <h2>Copias de seguridad</h2>
-  <p>Una copia de seguridad se cifra con una contraseña que eliges tú, en tu dispositivo, antes de subir nada. La clave se deriva con PBKDF2 con 600.000 iteraciones; el formato de archivo es <code>DOCSP2</code>. Sin esa contraseña, nadie puede abrir el archivo, tampoco nosotros. Si la pierdes, la copia es irrecuperable: es la propiedad buscada, no un descuido.</p>
+  <p>Una copia de seguridad se cifra con una contraseña que eliges tú, en tu dispositivo, antes de subir nada. La clave se deriva con PBKDF2 con 600.000 iteraciones; el formato de archivo es <code>DOCSP3</code>. Sin esa contraseña, nadie puede abrir el archivo, tampoco nosotros. Si la pierdes, la copia es irrecuperable: es la propiedad buscada, no un descuido.</p>
   <h2>Sin servidor, sin cuenta</h2>
   <p>Docsly no tiene cuentas ni servidor. Tus documentos nunca llegan hasta nosotros. Cuando haces una copia en Google Drive o iCloud, escribes en tu propio almacenamiento con tu propia cuenta; a nosotros no nos llega. Lo que sí envía la app son estadísticas de uso anónimas e informes de fallos (Firebase): nunca tus documentos, sus nombres ni su texto.</p>
   <h2>Código fuente</h2>
   <p>Docsly no es de código abierto. Publicamos esta página en su lugar, para que lo que importa —el cifrado, la derivación de claves, dónde se guardan, qué sale del dispositivo— pueda leerse y juzgarse sin tener que creernos.</p>
+  <nav class="langs" aria-label="Idioma"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><span aria-current="page">Español</span></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

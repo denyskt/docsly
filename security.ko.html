@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/ko/">← Docsly</a>
   <h1>보안</h1>
   <p class="sub">Docsly가 문서를 보호하는 방식</p>
   <p class="upd">업데이트: 2026년 11월 19일</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>키는 어디에 저장되는가</h2>
   <p>암호화 키는 기기에서 생성되어 iOS Keychain 또는 Android KeyStore에 보관됩니다. 키는 기기를 벗어나지 않고, 백업 아카이브에 담기지 않으며, 저희에게 전송되지도 않습니다. 보낼 곳 자체가 없습니다.</p>
   <h2>백업</h2>
-  <p>백업은 업로드 전에 사용자가 정한 암호구를 사용해 기기에서 암호화됩니다. 키는 PBKDF2를 600,000회 반복해 유도하며, 아카이브 형식은 <code>DOCSP2</code>입니다. 이 암호구가 없으면 저희를 포함해 누구도 아카이브를 열 수 없습니다. 잃어버리면 백업은 복구할 수 없습니다. 이는 실수가 아니라 의도한 성질입니다.</p>
+  <p>백업은 업로드 전에 사용자가 정한 암호구를 사용해 기기에서 암호화됩니다. 키는 PBKDF2를 600,000회 반복해 유도하며, 아카이브 형식은 <code>DOCSP3</code>입니다. 이 암호구가 없으면 저희를 포함해 누구도 아카이브를 열 수 없습니다. 잃어버리면 백업은 복구할 수 없습니다. 이는 실수가 아니라 의도한 성질입니다.</p>
   <h2>서버도, 계정도 없습니다</h2>
   <p>Docsly에는 계정도 백엔드도 없습니다. 문서가 저희에게 도달하는 일은 없습니다. Google Drive나 iCloud에 백업할 때는 저희가 아니라 본인 계정으로 본인 저장소에 기록하는 것입니다. 앱이 보내는 것은 익명의 사용 분석 데이터와 충돌 보고서(Firebase)이며, 문서나 그 이름, 텍스트는 절대 보내지 않습니다.</p>
   <h2>소스 코드</h2>
   <p>Docsly는 오픈 소스가 아닙니다. 대신 이 페이지를 공개합니다. 암호 알고리즘, 키 유도, 키 보관 위치, 기기를 떠나는 데이터처럼 중요한 부분을 저희 말만 믿지 않고 직접 읽고 판단할 수 있도록 하기 위해서입니다.</p>
+  <nav class="langs" aria-label="언어"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><span aria-current="page">한국어</span></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

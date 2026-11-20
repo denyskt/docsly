@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/">← Docsly</a>
   <h1>Security</h1>
   <p class="sub">How Docsly protects your documents</p>
   <p class="upd">Last updated: 19 November 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Where the keys live</h2>
   <p>The encryption key is generated on your device and kept in the iOS Keychain or the Android KeyStore. It never leaves the device, is never placed in a backup archive, and is never sent to us — there is nowhere for it to be sent.</p>
   <h2>Backups</h2>
-  <p>A backup is encrypted with a passphrase you choose, on your device, before anything is uploaded. The key is derived with PBKDF2 at 600,000 iterations; the archive format is <code>DOCSP2</code>. Without that passphrase the archive cannot be opened by anyone, including us. If you lose it, the backup is unrecoverable — that is the intended property, not an oversight.</p>
+  <p>A backup is encrypted with a passphrase you choose, on your device, before anything is uploaded. The key is derived with PBKDF2 at 600,000 iterations; the archive format is <code>DOCSP3</code>. Without that passphrase the archive cannot be opened by anyone, including us. If you lose it, the backup is unrecoverable — that is the intended property, not an oversight.</p>
   <h2>No server, no account</h2>
   <p>Docsly has no accounts and no backend. Your documents never reach us. When you back up to Google Drive or iCloud you are writing to your own storage with your own account, not to us. What the app does send is anonymous usage analytics and crash reports (Firebase) — never your documents, their names or their text.</p>
   <h2>Source code</h2>
   <p>Docsly is not open source. We publish this page instead, so the parts that matter — the cipher, the key derivation, where keys are stored, what leaves the device — can be read and judged without taking our word for it.</p>
+  <nav class="langs" aria-label="Language"><ul><li><span aria-current="page">English</span></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

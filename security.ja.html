@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/ja/">← Docsly</a>
   <h1>セキュリティ</h1>
   <p class="sub">Docsly が書類をどう保護するか</p>
   <p class="upd">更新日: 2026年11月19日</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>鍵の保管場所</h2>
   <p>暗号鍵は端末上で生成され、iOS の Keychain または Android の KeyStore に保管されます。鍵が端末から出ることはなく、バックアップアーカイブに含まれることもなく、当方に送信されることもありません。送る先がそもそも存在しません。</p>
   <h2>バックアップ</h2>
-  <p>バックアップは、アップロードの前に、お客様が決めたパスフレーズで端末上で暗号化されます。鍵は PBKDF2 を 600,000 回反復して導出し、アーカイブ形式は <code>DOCSP2</code> です。このパスフレーズがなければ、当方を含め誰もアーカイブを開けません。紛失した場合、バックアップは復元できません。これは見落としではなく、意図した性質です。</p>
+  <p>バックアップは、アップロードの前に、お客様が決めたパスフレーズで端末上で暗号化されます。鍵は PBKDF2 を 600,000 回反復して導出し、アーカイブ形式は <code>DOCSP3</code> です。このパスフレーズがなければ、当方を含め誰もアーカイブを開けません。紛失した場合、バックアップは復元できません。これは見落としではなく、意図した性質です。</p>
   <h2>サーバーもアカウントもありません</h2>
   <p>Docsly にはアカウントもバックエンドもありません。書類が当方に届くことはありません。Google Drive や iCloud にバックアップするときは、当方ではなく、お客様自身のアカウントで、お客様自身のストレージに書き込んでいます。アプリが送信するのは、匿名の利用状況分析とクラッシュレポート（Firebase）です。書類そのもの、その名前、そのテキストが送信されることはありません。</p>
   <h2>ソースコード</h2>
   <p>Docsly はオープンソースではありません。代わりにこのページを公開しています。暗号方式、鍵の導出、鍵の保管場所、端末から出るものといった要点を、当方の言葉を信じるほかない状態にせず、読んで判断できるようにするためです。</p>
+  <nav class="langs" aria-label="言語"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><span aria-current="page">日本語</span></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

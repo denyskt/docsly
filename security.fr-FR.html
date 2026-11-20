@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/fr/">← Docsly</a>
   <h1>Sécurité</h1>
   <p class="sub">Comment Docsly protège vos documents</p>
   <p class="upd">Mis à jour : 19 novembre 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Où sont les clés</h2>
   <p>La clé de chiffrement est générée sur votre appareil et conservée dans le Keychain d'iOS ou le KeyStore d'Android. Elle ne quitte jamais l'appareil, n'est jamais placée dans une archive de sauvegarde et ne nous est jamais transmise — il n'existe nulle part où l'envoyer.</p>
   <h2>Sauvegardes</h2>
-  <p>Une sauvegarde est chiffrée avec une phrase secrète que vous choisissez, sur votre appareil, avant tout envoi. La clé est dérivée par PBKDF2 avec 600 000 itérations ; le format d'archive est <code>DOCSP2</code>. Sans cette phrase secrète, personne ne peut ouvrir l'archive, nous pas davantage. Si vous la perdez, la sauvegarde est irrécupérable — c'est la propriété recherchée, pas un oubli.</p>
+  <p>Une sauvegarde est chiffrée avec une phrase secrète que vous choisissez, sur votre appareil, avant tout envoi. La clé est dérivée par PBKDF2 avec 600 000 itérations ; le format d'archive est <code>DOCSP3</code>. Sans cette phrase secrète, personne ne peut ouvrir l'archive, nous pas davantage. Si vous la perdez, la sauvegarde est irrécupérable — c'est la propriété recherchée, pas un oubli.</p>
   <h2>Ni serveur, ni compte</h2>
   <p>Docsly n'a ni comptes ni serveur. Vos documents ne nous parviennent jamais. Lorsque vous sauvegardez sur Google Drive ou iCloud, vous écrivez dans votre propre espace de stockage avec votre propre compte, et non chez nous. Ce que l'application envoie, ce sont des statistiques d'utilisation anonymes et des rapports de plantage (Firebase) — jamais vos documents, leurs noms ni leur texte.</p>
   <h2>Code source</h2>
   <p>Docsly n'est pas open source. Nous publions cette page à la place, afin que l'essentiel — l'algorithme, la dérivation de clé, l'endroit où les clés sont conservées, ce qui quitte l'appareil — puisse être lu et jugé sans avoir à nous croire sur parole.</p>
+  <nav class="langs" aria-label="Langue"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><span aria-current="page">Français</span></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

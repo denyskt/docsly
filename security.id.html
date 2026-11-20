@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/id/">← Docsly</a>
   <h1>Keamanan</h1>
   <p class="sub">Bagaimana Docsly melindungi dokumen Anda</p>
   <p class="upd">Diperbarui: 19 November 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>Di mana kunci disimpan</h2>
   <p>Kunci enkripsi dibuat di perangkat Anda dan disimpan di iOS Keychain atau Android KeyStore. Kunci tidak pernah meninggalkan perangkat, tidak pernah dimasukkan ke dalam arsip cadangan, dan tidak pernah dikirim kepada kami — tidak ada tempat untuk mengirimnya.</p>
   <h2>Cadangan</h2>
-  <p>Cadangan dienkripsi dengan frasa sandi pilihan Anda, di perangkat Anda, sebelum apa pun diunggah. Kuncinya diturunkan dengan PBKDF2 sebanyak 600.000 iterasi; format arsipnya <code>DOCSP2</code>. Tanpa frasa sandi itu, tidak seorang pun dapat membuka arsipnya, termasuk kami. Jika Anda kehilangannya, cadangan tidak dapat dipulihkan — itu sifat yang memang dikehendaki, bukan kelalaian.</p>
+  <p>Cadangan dienkripsi dengan frasa sandi pilihan Anda, di perangkat Anda, sebelum apa pun diunggah. Kuncinya diturunkan dengan PBKDF2 sebanyak 600.000 iterasi; format arsipnya <code>DOCSP3</code>. Tanpa frasa sandi itu, tidak seorang pun dapat membuka arsipnya, termasuk kami. Jika Anda kehilangannya, cadangan tidak dapat dipulihkan — itu sifat yang memang dikehendaki, bukan kelalaian.</p>
   <h2>Tanpa server, tanpa akun</h2>
   <p>Docsly tidak punya akun dan tidak punya backend. Dokumen Anda tidak pernah sampai ke kami. Saat Anda mencadangkan ke Google Drive atau iCloud, Anda menulis ke penyimpanan Anda sendiri dengan akun Anda sendiri, bukan ke kami. Yang dikirim aplikasi adalah analitik penggunaan anonim dan laporan error (Firebase) — tidak pernah dokumen Anda, namanya, atau teksnya.</p>
   <h2>Kode sumber</h2>
   <p>Docsly bukan perangkat lunak sumber terbuka. Sebagai gantinya kami menerbitkan halaman ini, agar bagian yang penting — algoritme enkripsi, penurunan kunci, tempat kunci disimpan, apa yang keluar dari perangkat — dapat dibaca dan dinilai tanpa harus percaya begitu saja pada kami.</p>
+  <nav class="langs" aria-label="Bahasa"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/security.th.html" hreflang="th" lang="th">ไทย</a></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><span aria-current="page">Bahasa Indonesia</span></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

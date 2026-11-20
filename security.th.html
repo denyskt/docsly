@@ -38,13 +38,20 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
 @media(prefers-color-scheme:dark){
  body{background:#121214;color:#e8e8ea}
  .sub{color:#a0a0a8}.upd{color:#77777f}code{background:#232327}
-}</style>
+}
+.home{display:inline-block;margin:0 0 1.75rem;color:inherit;text-decoration:none;font-weight:600}
+.home:hover{text-decoration:underline}
+.langs{margin:3.5rem 0 0;padding-top:1.25rem;border-top:1px solid #e4e4e8;font-size:.9rem}
+.langs ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.35rem 1.1rem}
+.langs a{display:inline-block;padding:.3rem 0;color:#5a5a5a}.langs [aria-current]{font-weight:600}
+@media(prefers-color-scheme:dark){.langs{border-top-color:#2c2c31}.langs a{color:#a0a0a8}}</style>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/icon-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 </head>
 <body>
 <main>
+  <a class="home" href="/th/">← Docsly</a>
   <h1>ความปลอดภัย</h1>
   <p class="sub">Docsly ปกป้องเอกสารของคุณอย่างไร</p>
   <p class="upd">อัปเดต: 19 พฤศจิกายน 2026</p>
@@ -53,11 +60,12 @@ code{background:#f2f2f4;padding:.1em .35em;border-radius:4px;font-size:.9em}
   <h2>กุญแจเก็บอยู่ที่ไหน</h2>
   <p>กุญแจเข้ารหัสถูกสร้างขึ้นบนเครื่องของคุณ และเก็บไว้ใน iOS Keychain หรือ Android KeyStore กุญแจไม่ออกจากเครื่อง ไม่ถูกใส่ไว้ในไฟล์สำรองข้อมูล และไม่ถูกส่งมาให้เรา เพราะไม่มีที่ให้ส่งไปตั้งแต่แรก</p>
   <h2>การสำรองข้อมูล</h2>
-  <p>ไฟล์สำรองข้อมูลถูกเข้ารหัสด้วยรหัสผ่านที่คุณตั้งเอง บนเครื่องของคุณ ก่อนที่จะมีการอัปโหลดใด ๆ กุญแจถูกสร้างด้วย PBKDF2 จำนวน 600,000 รอบ และรูปแบบไฟล์คือ <code>DOCSP2</code> หากไม่มีรหัสผ่านนี้ ไม่มีใครเปิดไฟล์ได้ รวมถึงเราด้วย ถ้าคุณทำรหัสผ่านหาย ไฟล์สำรองจะกู้คืนไม่ได้ ซึ่งเป็นคุณสมบัติที่ตั้งใจให้เป็นเช่นนั้น ไม่ใช่ความบกพร่อง</p>
+  <p>ไฟล์สำรองข้อมูลถูกเข้ารหัสด้วยรหัสผ่านที่คุณตั้งเอง บนเครื่องของคุณ ก่อนที่จะมีการอัปโหลดใด ๆ กุญแจถูกสร้างด้วย PBKDF2 จำนวน 600,000 รอบ และรูปแบบไฟล์คือ <code>DOCSP3</code> หากไม่มีรหัสผ่านนี้ ไม่มีใครเปิดไฟล์ได้ รวมถึงเราด้วย ถ้าคุณทำรหัสผ่านหาย ไฟล์สำรองจะกู้คืนไม่ได้ ซึ่งเป็นคุณสมบัติที่ตั้งใจให้เป็นเช่นนั้น ไม่ใช่ความบกพร่อง</p>
   <h2>ไม่มีเซิร์ฟเวอร์ ไม่มีบัญชี</h2>
   <p>Docsly ไม่มีบัญชีผู้ใช้และไม่มีระบบหลังบ้าน เอกสารของคุณไม่เคยมาถึงเรา เมื่อคุณสำรองข้อมูลไปยัง Google Drive หรือ iCloud คุณกำลังเขียนลงพื้นที่เก็บข้อมูลของคุณเองด้วยบัญชีของคุณเอง ไม่ใช่ส่งมาให้เรา สิ่งที่แอปส่งออกไปคือข้อมูลวิเคราะห์การใช้งานแบบไม่ระบุตัวตนและรายงานข้อขัดข้อง (Firebase) โดยไม่เคยส่งเอกสาร ชื่อเอกสาร หรือข้อความในเอกสารของคุณ</p>
   <h2>ซอร์สโค้ด</h2>
   <p>Docsly ไม่ใช่ซอฟต์แวร์โอเพนซอร์ส เราเผยแพร่หน้านี้แทน เพื่อให้สิ่งที่สำคัญ — อัลกอริทึมเข้ารหัส การสร้างกุญแจ ที่เก็บกุญแจ และสิ่งที่ออกจากเครื่อง — ถูกอ่านและตัดสินได้ โดยไม่ต้องเชื่อคำพูดของเรา</p>
+  <nav class="langs" aria-label="ภาษา"><ul><li><a href="/security.html" hreflang="en" lang="en">English</a></li><li><a href="/security.ru.html" hreflang="ru" lang="ru">Русский</a></li><li><a href="/security.uk.html" hreflang="uk" lang="uk">Українська</a></li><li><a href="/security.de-DE.html" hreflang="de" lang="de">Deutsch</a></li><li><a href="/security.es-ES.html" hreflang="es" lang="es">Español</a></li><li><a href="/security.fr-FR.html" hreflang="fr" lang="fr">Français</a></li><li><a href="/security.it.html" hreflang="it" lang="it">Italiano</a></li><li><a href="/security.pt-PT.html" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a></li><li><a href="/security.pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/security.pl.html" hreflang="pl" lang="pl">Polski</a></li><li><a href="/security.tr.html" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/security.ja.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="/security.ko.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="/security.zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><span aria-current="page">ไทย</span></li><li><a href="/security.vi.html" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/security.id.html" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/security.hi.html" hreflang="hi" lang="hi">हिन्दी</a></li></ul></nav>
 </main>
 </body>
 </html>

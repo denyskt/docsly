@@ -30,6 +30,7 @@ Key facts:
 - [Forgot your PIN](https://getdocsly.app/help/forgot-pin.html): What still works if you forget the PIN, and what cannot be undone.
 - [Docsly in facts](https://getdocsly.app/facts.html): Short facts to quote, with the app icon and screenshots.
 - [Changelog](https://getdocsly.app/changelog.html): What each version of Docsly brought.
+- [Terms of use](https://getdocsly.app/terms.html): Which terms apply to Docsly: Apple’s or Google Play’s.
 <!-- end of content pages -->
 
 ## Download

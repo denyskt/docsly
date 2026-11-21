@@ -474,11 +474,379 @@
   <url><loc>https://getdocsly.app/facts.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
   </url>
   <url><loc>https://getdocsly.app/ru/facts.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/uk/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/de/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/es/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/fr/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/it/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/pt-pt/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/pt-br/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/pl/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/tr/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ja/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ko/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/zh/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/th/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/vi/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/id/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/hi/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://getdocsly.app/uk/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://getdocsly.app/de/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getdocsly.app/es/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://getdocsly.app/fr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://getdocsly.app/it/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://getdocsly.app/pt-pt/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getdocsly.app/pt-br/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://getdocsly.app/pl/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://getdocsly.app/tr/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://getdocsly.app/ja/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://getdocsly.app/ko/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://getdocsly.app/zh/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://getdocsly.app/th/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://getdocsly.app/vi/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://getdocsly.app/id/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://getdocsly.app/hi/facts.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
   </url>
   <url><loc>https://getdocsly.app/help/</loc>

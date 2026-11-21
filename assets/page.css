@@ -1,11 +1,6 @@
-/* Docsly — страницы функций и справки (docs/site-pages/gen.py). Поверх landing.css: шапка, кнопки сторов,
-   градиентная карточка и цвета берутся оттуда, здесь — только текст статьи. */
-
-.page-nav { display: none; gap: 4px; margin-right: 8px; }
-.page-nav a { padding: 8px 12px; border-radius: 10px; color: var(--text); font-weight: 500; font-size: 15px; }
-.page-nav a:hover { background: var(--surface-2); text-decoration: none; }
-@media (min-width: 640px) { .page-nav { display: flex; } }
-.site-header .lang a, .site-header .lang span { min-width: 40px; text-align: center; }
+/* Docsly — страницы функций, справки и фактов (docs/site-pages/gen.py). Поверх landing.css: шапка и подвал — те же,
+   что у главной (копируются из неё), кнопки сторов, градиентная карточка и цвета — оттуда; здесь — только текст статьи.
+   Карточка и блок сторов во всю ширину колонки, как блоки главной; строка текста внутри — не шире 760 px. */
 
 .docpage { padding: 20px 0 clamp(48px, 8vw, 88px); }
 
@@ -14,8 +9,9 @@
 .crumbs li + li::before { content: "›"; margin-right: 8px; color: var(--text-2); }
 .crumbs a { color: var(--text-2); }
 
-.prose { max-width: 720px; background: var(--surface); border-radius: var(--radius-l); box-shadow: var(--shadow);
+.prose { background: var(--surface); border-radius: var(--radius-l); box-shadow: var(--shadow);
   padding: clamp(24px, 5vw, 56px); }
+.prose > * { max-width: 760px; }
 .prose h1 { font-size: clamp(30px, 6vw, 44px); margin-bottom: 14px; }
 .prose h2 { font-size: clamp(22px, 4vw, 28px); margin: 36px 0 12px; }
 .prose h3 { margin: 24px 0 8px; }
@@ -35,9 +31,7 @@
 .dp-list a { font-weight: 600; }
 .dp-list span { color: var(--text-2); font-size: 15px; }
 
-.dp-cta { max-width: 720px; margin-top: 28px; }
+.dp-cta { margin-top: 28px; }
 .dp-cta h2 { font-size: clamp(24px, 5vw, 34px); }
 .dp-cta p { font-size: 17px; }
 
-.dp-links { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 0; padding: 0; list-style: none; }
-.dp-links a { color: var(--text); }

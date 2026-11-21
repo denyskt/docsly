@@ -28,6 +28,7 @@ Key facts:
 - [Restore a backup](https://getdocsly.app/help/restore-backup.html): Bring documents back from Google Drive, iCloud or a backup file.
 - [Open a .docsly file](https://getdocsly.app/help/open-docsly-file.html): What a .docsly file is and how to open one someone sent you.
 - [Forgot your PIN](https://getdocsly.app/help/forgot-pin.html): What still works if you forget the PIN, and what cannot be undone.
+- [Docsly in facts](https://getdocsly.app/facts.html): Short facts to quote, with the app icon and screenshots.
 <!-- end of content pages -->
 
 ## Download

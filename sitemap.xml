@@ -471,6 +471,16 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/forgot-pin.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/help/forgot-pin.html"/>
   </url>
+  <url><loc>https://getdocsly.app/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
+  <url><loc>https://getdocsly.app/ru/facts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/facts.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getdocsly.app/facts.html"/>
+  </url>
   <url><loc>https://getdocsly.app/help/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://getdocsly.app/help/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://getdocsly.app/ru/help/"/>
